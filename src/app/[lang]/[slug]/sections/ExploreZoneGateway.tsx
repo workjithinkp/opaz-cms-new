@@ -203,27 +203,30 @@ function ZoneContent({ zone, lang }: { zone: any; lang: string }) {
 
               {/* RIGHT SIDE — Dynamic Tab Content */}
               <div>
-                {infrastructure.map((item: any) => (
-                  <TabsContent key={item.id} value={String(item.id)}>
-                    <div className="overflow-hidden rounded-lg">
-                      {item.image && (
-                        <Image
-                          src={item.image.startsWith('http') ? item.image : `${API_DOMAIN}${item.image}`}
-                          width={800}
-                          height={400}
-                          className="h-full w-full object-cover"
-                          alt={item.title}
-                        />
-                      )}
-                      {item.description && (
-                        <p
-                          className="mt-4 text-white"
-                          dangerouslySetInnerHTML={{ __html: item.description }}
-                        />
-                      )}
-                    </div>
-                  </TabsContent>
-                ))}
+                {infrastructure.map((item: any) => {
+                  const imageUrl = (item.image && item.image.trim()) || (zone.i_2 && zone.i_2.trim())
+                  return (
+                    <TabsContent key={item.id} value={String(item.id)}>
+                      <div className="overflow-hidden rounded-lg">
+                        {imageUrl && (
+                          <Image
+                            src={imageUrl.startsWith('http') ? imageUrl : `${API_DOMAIN}${imageUrl}`}
+                            width={800}
+                            height={400}
+                            className="h-full w-full object-cover"
+                            alt={item.title}
+                          />
+                        )}
+                        {item.description && (
+                          <p
+                            className="mt-4 text-white"
+                            dangerouslySetInnerHTML={{ __html: item.description }}
+                          />
+                        )}
+                      </div>
+                    </TabsContent>
+                  )
+                })}
               </div>
             </div>
           </Tabs>
