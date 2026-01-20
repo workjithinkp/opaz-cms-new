@@ -6,9 +6,11 @@ import footer from '@/data/footer.json'
 import { useLang } from '@/context/LangContext'
 import { useState, useEffect } from 'react'
 import { fetchMenus, type Menu } from '@/lib/api'
+import type { FooterData, LanguageCode } from '@/types/footer'
 
 export default function Footer() {
-  const { lang } = useLang()
+  const { lang } = useLang() as { lang: LanguageCode }
+  const typedFooter = footer as FooterData
   const [menusData, setMenusData] = useState<any>(null)
   const [socialMedia, setSocialMedia] = useState<any>(null)
   const [contactInfo, setContactInfo] = useState<any>(null)
@@ -77,7 +79,7 @@ export default function Footer() {
             {/* SITE MAP */}
             <div className='md:pb-0 mb-6'>
               <h3 className="pb-4 font-semibold uppercase text-gray-900">
-                {footer.siteMap.title[lang as keyof typeof footer.siteMap.title]}
+                {typedFooter.siteMap.title[lang]}
               </h3>
               <ul className="space-y-2">
                 {menusData?.menu3?.items && menusData.menu3.items.length > 0 ? (
@@ -111,10 +113,10 @@ export default function Footer() {
                       )
                     })
                 ) : (
-                  footer.siteMap.links.map((item) => (
+                  typedFooter.siteMap.links.map((item) => (
                     <li key={item.href}>
                       <Link href={item.href} className='group relative inline-block transition-all hover:text-gray-900'>
-                        {item.label[lang as keyof typeof item.label]}
+                        {item.label[lang]}
                         <span className="liner"></span>
                       </Link>
                     </li>
@@ -126,7 +128,7 @@ export default function Footer() {
             {/* USEFUL LINKS */}
             <div className='md:pb-0 mb-6'>
               <h3 className="pb-4 font-semibold uppercase text-gray-900">
-                {footer.usefulLinks.title[lang as keyof typeof footer.usefulLinks.title]}
+                {typedFooter.usefulLinks.title[lang]}
               </h3>
               <ul className="space-y-2">
                 {menusData?.menu4?.items && menusData.menu4.items.length > 0 ? (
@@ -157,12 +159,12 @@ export default function Footer() {
                       )
                     })
                 ) : (
-                  footer.usefulLinks.links.map((item, i) => (
+                  typedFooter.usefulLinks.links.map((item, i) => (
                     <li key={i}>
                       <Link
                         href={item.href}
                         className='group relative inline-block transition-all hover:text-gray-900'>
-                        {item.label[lang as keyof typeof item.label]}
+                        {item.label[lang]}
                         <span className="liner"></span>
                       </Link>
                     </li>
@@ -174,29 +176,29 @@ export default function Footer() {
             {/* CONTACT */}
             <div className='md:pb-0 mb-6 md:max-w-2xs'>
               <h3 className="pb-4 font-semibold uppercase text-gray-900">
-                {contactInfo?.title || footer.contact.title[lang as keyof typeof footer.contact.title]}
+                {contactInfo?.title || typedFooter.contact.title[lang]}
               </h3>
 
               <p>
-                {contactInfo?.local_call?.label || footer.contact.localCall.label[lang as keyof typeof footer.contact.localCall.label]} <br />
+                {contactInfo?.local_call?.label || typedFooter.contact.localCall.label[lang]} <br />
                 <span className='font-medium' dir="ltr">
-                  {contactInfo?.local_call?.number || footer.contact.localCall.value}
+                  {contactInfo?.local_call?.number || typedFooter.contact.localCall.value}
                 </span>
               </p>
 
               <p className="mt-2">
-                {contactInfo?.international_call?.label || footer.contact.internationalCall.label[lang as keyof typeof footer.contact.internationalCall.label]} <br />
+                {contactInfo?.international_call?.label || typedFooter.contact.internationalCall.label[lang]} <br />
                 <span className='font-medium' dir="ltr">
-                  {contactInfo?.international_call?.number || footer.contact.internationalCall.value}
+                  {contactInfo?.international_call?.number || typedFooter.contact.internationalCall.value}
                 </span>
               </p>
 
               <p dir="ltr" className="mt-2">
-                {contactInfo?.email || footer.contact.email}
+                {contactInfo?.email || typedFooter.contact.email}
               </p>
 
               <p className="mt-2">
-                {contactInfo?.address || footer.contact.address[lang as keyof typeof footer.contact.address]}
+                {contactInfo?.address || typedFooter.contact.address[lang]}
               </p>
               
               <div className="flex items-center space-x-7 text-2xl text-[#9d6d53] pt-4">
@@ -357,7 +359,7 @@ export default function Footer() {
             </div>
 
             <div className="text-center text-sm font-medium text-gray-900 uppercase">
-              {footer.copyright[lang as keyof typeof footer.copyright]}
+              {typedFooter.copyright[lang]}
             </div>
 
             <div className="flex items-end md:justify-end justify-center">
