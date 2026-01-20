@@ -104,7 +104,7 @@ export default function ExploreZoneFindTheKey({ section }: ExploreZoneFindTheKey
       <div ref={imgRef} className="absolute inset-0 overflow-hidden">
        
           <Image
-           src="/explore-renewable-bg.jpg"
+           src={block?.i_1 ? (block.i_1.startsWith('http') ? block.i_1 : `${API_DOMAIN}${block.i_1}`) : '/explore-renewable-bg.jpg'}
             alt="Background"
             fill
             priority

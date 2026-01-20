@@ -74,7 +74,7 @@ export default function CareerBanner({ section, lang }: CareerBannerProps) {
       className="relative flex w-full flex-col justify-center overflow-hidden pt-14 pb-10 lg:min-h-screen lg:pt-36 lg:pb-24">
       <div ref={imgRef} className="absolute inset-0 overflow-hidden">
         <Image
-          src="/career-hero.jpg"
+          src={block?.i_1 || "/career-hero.jpg"}
           alt="Zoom"
           fill
           priority

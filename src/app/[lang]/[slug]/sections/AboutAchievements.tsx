@@ -86,7 +86,7 @@ export default function AboutAchievements({
 
       <div ref={imgRef} className="absolute inset-0 overflow-hidden">
         <Image
-          src="/future-bg.jpg"
+          src={block?.i_1 || '/future-bg.jpg'}
           alt="Achievements Background"
           fill
           priority

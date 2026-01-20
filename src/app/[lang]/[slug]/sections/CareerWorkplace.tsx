@@ -99,7 +99,7 @@ export default function CareerWorkplace({ section, lang }: CareerWorkplaceProps)
       className="relative overflow-hidden bg-[#06213c] pt-14 pb-10 lg:min-h-screen lg:pt-36 lg:pb-24">
       <div ref={imgRef} className="absolute inset-0 overflow-hidden">
         <Image
-          src="/career-workplace-bg.jpg"
+          src={block?.i_1 || "/career-workplace-bg.jpg"}
           alt="Zoom"
           fill
           priority

@@ -129,7 +129,7 @@ export default function InvestResources({
       {/* Background Image */}
       <div ref={imgRef} className="absolute inset-0 overflow-hidden">
         <Image
-          src="/team-bg.jpg"
+          src={block.i_1 || "/team-bg.jpg"}
           alt="Zoom"
           fill
           priority

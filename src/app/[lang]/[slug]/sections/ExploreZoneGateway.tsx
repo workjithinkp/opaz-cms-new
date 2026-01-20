@@ -144,7 +144,7 @@ function ZoneContent({ zone, lang }: { zone: any; lang: string }) {
     <section className="relative overflow-hidden bg-[#06213c] pt-14 pb-10 lg:min-h-screen lg:pt-36 lg:pb-24">
       <div className="absolute inset-0 overflow-hidden">
         <Image
-          src="/explore-connect-bg.jpg"
+          src={zone.i_2 ? (zone.i_2.startsWith('http') ? zone.i_2 : `${API_DOMAIN}${zone.i_2}`) : '/explore-connect-bg.jpg'}
           alt="Background"
           fill
           priority

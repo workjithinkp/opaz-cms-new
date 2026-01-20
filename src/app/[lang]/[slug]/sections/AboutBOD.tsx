@@ -177,8 +177,8 @@ export default function AboutBOD({ section, lang }: AboutBODProps) {
 
       <div ref={imgRef} className="absolute inset-0 overflow-hidden">
         <Image
-          src={'/possibilities-bg.jpg'}
-          alt=""
+          src={block?.i_1 || '/possibilities-bg.jpg'}
+          alt="Board of Directors Background"
           fill
           priority
           className="object-cover"
