@@ -31,7 +31,6 @@ const scrollToHashWhenReady = (hash: string) => {
 
     attempts++
     if (attempts >= maxAttempts) {
-      console.warn(`Element with id "${hash}" not found`)
       clearInterval(interval)
     }
   }, 100)

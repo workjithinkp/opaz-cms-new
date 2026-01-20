@@ -16,7 +16,7 @@ export async function GET(
     });
 
     if (!response.ok) {
-      console.error(`Menu API returned ${response.status} for ${API_BASE_URL}/menus/${lang}`);
+     
       return NextResponse.json(
         { error: 'Failed to fetch menus' },
         { status: response.status }
@@ -26,7 +26,7 @@ export async function GET(
     const data = await response.json();
     return NextResponse.json(data);
   } catch (error) {
-    console.error('Error fetching menus:', error);
+ 
     return NextResponse.json(
       { error: 'Internal server error' },
       { status: 500 }

@@ -176,7 +176,7 @@ export async function fetchLocales(): Promise<Locale[]> {
     });
 
     if (!response.ok) {
-      console.error(`Failed to fetch locales: ${response.status} ${response.statusText}`);
+    
       throw new Error('Failed to fetch locales');
     }
 
@@ -190,7 +190,6 @@ export async function fetchLocales(): Promise<Locale[]> {
       .filter((locale) => locale.is_active === 1)
       .sort((a, b) => a.sort - b.sort);
   } catch (error) {
-    console.error('Error fetching locales:', error);
     // Return default English and Arabic locales as fallback
     return [
       {
@@ -243,10 +242,8 @@ export async function fetchPageData(
 
     if (!response.ok) {
       if (response.status === 404) {
-        console.warn(`Page not found: ${lang}/${slug}`);
         return null;
       }
-      console.error(`Failed to fetch page data: ${response.status} ${response.statusText}`);
       throw new Error(`Failed to fetch page data: ${response.statusText}`);
     }
 
@@ -258,7 +255,6 @@ export async function fetchPageData(
 
     return result.data;
   } catch (error) {
-    console.error('Error fetching page data:', error);
     return null;
   }
 }
@@ -284,7 +280,6 @@ export async function fetchPages(): Promise<string[]> {
     });
 
     if (!response.ok) {
-      console.error(`Failed to fetch pages: ${response.status} ${response.statusText}`);
       throw new Error('Failed to fetch pages');
     }
 
@@ -297,7 +292,6 @@ export async function fetchPages(): Promise<string[]> {
     // Extract slugs from the data object
     return Object.values(result.data) as string[];
   } catch (error) {
-    console.error('Error fetching pages:', error);
     // Return common pages as fallback
     return ['home', 'about', 'contact-us', 'career', 'media'];
   }
@@ -316,7 +310,6 @@ export async function fetchMenus(locale: string): Promise<Menu | null> {
     });
 
     if (!response.ok) {
-      console.error(`Failed to fetch menus: ${response.status} ${response.statusText}`);
       return null;
     }
 
@@ -328,7 +321,6 @@ export async function fetchMenus(locale: string): Promise<Menu | null> {
 
     return result.data.menu1;
   } catch (error) {
-    console.error('Error fetching menus:', error);
     return null;
   }
 }

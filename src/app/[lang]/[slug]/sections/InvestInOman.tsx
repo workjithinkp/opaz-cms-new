@@ -7,6 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import Image from 'next/image'
 import { PageSection } from '@/lib/api'
+import { useTranslations } from '@/lib/useTranslations'
 
 import { Autoplay, Navigation } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -27,6 +28,7 @@ export default function InvestInOman({
   lang,
 }: InvestInOmanProps) {
   const { lang: contextLang } = useLang()
+  const t = useTranslations()
   const isEn = contextLang === 'en'
 
   const containerRef = useRef(null)
@@ -223,7 +225,7 @@ export default function InvestInOman({
             <h2
               ref={title2Ref}
               className="mb-10 text-2xl font-normal text-[#b0ddfc] uppercase text-shadow-2xs lg:text-5xl xl:text-6xl 2xl:text-7xl">
-              {block.c_3 || (isEn ? 'OPAZ INCENTIVES' : 'حوافز الاستثمار')}
+              {block.c_3 || t('opazIncentives')}
             </h2>
 
             {/* FIRST SLIDER - Short Items (invest-in-oman-15) */}

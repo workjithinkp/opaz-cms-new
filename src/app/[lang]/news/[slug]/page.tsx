@@ -3,6 +3,7 @@
 import { useEffect, useState, useRef } from 'react'
 import { useParams } from 'next/navigation'
 import { useLang } from '@/context/LangContext'
+import { useTranslations } from '@/lib/useTranslations'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
@@ -47,6 +48,7 @@ type ApiResponse = {
 export default function NewsDetailsPage() {
   const { slug } = useParams<{ slug: string }>()
   const { lang } = useLang()
+  const t = useTranslations()
   const isEn = lang === 'en'
 
   const [news, setNews] = useState<NewsDetails | null>(null)
@@ -138,7 +140,7 @@ export default function NewsDetailsPage() {
   if (loading) {
     return (
       <section className="min-h-screen bg-[#06213c] pt-24 text-white">
-        <div className="container mx-auto max-w-5xl px-4">Loading...</div>
+        <div className="container mx-auto max-w-5xl px-4">{t('loading')}</div>
       </section>
     )
   }
@@ -147,7 +149,7 @@ export default function NewsDetailsPage() {
     return (
       <section className="min-h-screen bg-[#06213c] pt-24 text-white">
         <div className="container mx-auto max-w-5xl px-4">
-          {error || 'News not found'}
+          {error ? t('errorLoadingNews') : t('newsNotFound')}
         </div>
       </section>
     )
@@ -163,7 +165,7 @@ export default function NewsDetailsPage() {
         <h2
           ref={titleRef}
           className={`text-3x pb-4 text-center font-normal text-[#b0ddfc] uppercase text-shadow-2xs lg:pb-7 lg:text-5xl xl:pb-14 xl:text-6xl 2xl:text-8xl`}>
-          {isEn ? <>Latest News</> : <>آخر الأخبار</>}
+          {t('latestNews')}
         </h2>
 
         <div className="" ref={formRef}></div>

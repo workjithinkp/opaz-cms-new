@@ -121,10 +121,10 @@ export default function Header() {
         )
         const data: ApiResponse = await response.json()
         
-        console.log('API Response:', data)
+      
         
         if (data.status === 1 && data.data) {
-          console.log('Raw data items:', data.data)
+        
           
           // Sort by sort field and extract c_1 content (show all, even empty)
           const sorted = data.data
@@ -135,11 +135,11 @@ export default function Header() {
             })
             .map(item => item.c_1 as string)
           
-          console.log('Marquee texts loaded:', sorted)
+        
           setMarqueeTexts(sorted)
         }
       } catch (error) {
-        console.error('Failed to fetch marquee texts:', error)
+        // Error fetching marquee texts
       }
     }
     

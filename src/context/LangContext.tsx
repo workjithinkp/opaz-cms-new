@@ -57,7 +57,6 @@ export function LangProvider({
         .catch(err => {
           clearTimeout(timeoutId);
           if (err?.name === 'AbortError') return; // Ignore expected aborts (timeout/unmount)
-          console.error('Failed to fetch locales:', err);
           // Fallback to default locales when fetch fails
           setLocales([
             { id: 1, locale: 'en', full_name: 'English', name: 'EN', rtl: 0, is_default: 1, is_active: 1, sort: 1 },

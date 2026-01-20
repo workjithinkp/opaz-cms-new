@@ -9,6 +9,7 @@ import Link from 'next/link'
 import { MdOutlineDateRange } from 'react-icons/md'
 import { PageSection, API_DOMAIN } from '@/lib/api'
 import { cn } from '@/lib/utils'
+import { useTranslations } from '@/lib/useTranslations'
 import {
   Pagination,
   PaginationContent,
@@ -27,6 +28,7 @@ interface MediaNewsProps {
 }
 
 export default function MediaNews({ section, lang }: MediaNewsProps) {
+  const t = useTranslations()
   const isEn = lang === 'en'
   const news = (section as any).news || []
   const block = section.block
@@ -142,7 +144,7 @@ export default function MediaNews({ section, lang }: MediaNewsProps) {
         <h2
           ref={titleRef}
           className={`text-3x mb-4 text-3xl font-normal text-[#b0ddfc] uppercase text-shadow-2xs lg:mb-8 lg:text-6xl 2xl:text-[80px] ${isEn ? 'origin-left' : 'origin-right text-right'}`}>
-          {block?.c_1 || (isEn ? 'Latest News' : 'آخر الأخبار')}
+          {block?.c_1 || t('latestNews')}
         </h2>
 
         <div
@@ -205,7 +207,7 @@ export default function MediaNews({ section, lang }: MediaNewsProps) {
                       'cursor-pointer hover:bg-white/10',
                       currentPage === 1 && 'pointer-events-none opacity-50',
                       'rtl:[&_svg]:rotate-180',
-                      'rtl:after:ms-2 rtl:after:content-["السابق"] rtl:[&_span]:hidden'
+                      `rtl:after:ms-2 rtl:after:content-["${t('previous')}"] rtl:[&_span]:hidden`
                     )}
                   />
                 </PaginationItem>
@@ -240,7 +242,7 @@ export default function MediaNews({ section, lang }: MediaNewsProps) {
                       currentPage === totalPages &&
                         'pointer-events-none opacity-50',
                       'rtl:[&_svg]:rotate-180',
-                      'rtl:after:me-2 rtl:after:content-["التالي"] rtl:[&_span]:hidden'
+                      `rtl:after:me-2 rtl:after:content-["${t('next')}"] rtl:[&_span]:hidden`
                     )}
                   />
                 </PaginationItem>

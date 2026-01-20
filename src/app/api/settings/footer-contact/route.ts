@@ -11,7 +11,6 @@ export async function GET(request: NextRequest) {
     });
 
     if (!response.ok) {
-      console.error(`Footer contact API returned ${response.status}`);
       return NextResponse.json(
         { error: 'Failed to fetch footer contact' },
         { status: response.status }
@@ -21,7 +20,6 @@ export async function GET(request: NextRequest) {
     const data = await response.json();
     return NextResponse.json(data);
   } catch (error) {
-    console.error('Error fetching footer contact:', error);
     return NextResponse.json(
       { error: 'Internal server error' },
       { status: 500 }

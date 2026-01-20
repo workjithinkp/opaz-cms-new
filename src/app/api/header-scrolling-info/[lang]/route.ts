@@ -22,7 +22,6 @@ export async function GET(
     });
 
     if (!response.ok) {
-      console.error(`[Header Scrolling API] Response not ok: ${response.status}`);
       return NextResponse.json(
         { status: 0, message: 'Failed to fetch header scrolling info' },
         { status: response.status }
@@ -30,18 +29,6 @@ export async function GET(
     }
 
     const data = await response.json();
-    
-    console.log(`[Header Scrolling API] === FULL RAW RESPONSE ===`);
-    console.log(JSON.stringify(data, null, 2));
-    console.log(`[Header Scrolling API] Response status:`, data.status);
-    console.log(`[Header Scrolling API] Data items count:`, data.data?.length || 0);
-    if (data.data && data.data[0]) {
-      console.log(`[Header Scrolling API] First item c_1 type:`, typeof data.data[0].c_1);
-      console.log(`[Header Scrolling API] First item c_1 value:`, data.data[0].c_1);
-      console.log(`[Header Scrolling API] First item c_1 length:`, data.data[0].c_1?.length || 0);
-      console.log(`[Header Scrolling API] Full first item:`, JSON.stringify(data.data[0], null, 2));
-      console.log(`[Header Scrolling API] All items c_1 values:`, data.data.map((item: any) => item.c_1));
-    }
     
     // Set no-cache headers
     const responseHeaders = new Headers();
@@ -51,7 +38,7 @@ export async function GET(
     
     return NextResponse.json(data, { headers: responseHeaders });
   } catch (error) {
-    console.error('[Header Scrolling API] Error:', error);
+   
     return NextResponse.json(
       { status: 0, message: 'Internal server error', error: String(error) },
       { status: 500 }

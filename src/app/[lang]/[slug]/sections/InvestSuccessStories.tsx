@@ -6,6 +6,7 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import { PageSection } from '@/lib/api'
+import { useTranslations } from '@/lib/useTranslations'
 
 import Link from 'next/link'
 import { IoIosArrowForward } from 'react-icons/io'
@@ -25,6 +26,7 @@ export default function InvestSuccessStories({
   lang,
 }: InvestSuccessStoriesProps) {
   const { lang: contextLang } = useLang()
+  const t = useTranslations()
   const isEn = contextLang === 'en'
 
   const containerRef = useRef<HTMLDivElement | null>(null)
@@ -166,7 +168,7 @@ export default function InvestSuccessStories({
                         className="flex items-center rounded-sm border border-blue-300 bg-blue-300/30 px-6 py-3 text-[#b0ddfc] uppercase transition hover:bg-[#0c213b]"
                         href={item.t_1 || '#'}
                         target="_blank">
-                        {isEn ? 'Watch here' : 'شاهد هنا'}
+                        {t('watchHere')}
                         <IoIosArrowForward
                           className={`ms-2 ${contextLang === 'ar' ? 'scale-x-[-1]' : ''}`}
                         />
@@ -190,7 +192,7 @@ export default function InvestSuccessStories({
                       className="flex items-center rounded-sm border border-blue-300 bg-blue-300/30 px-6 py-2 text-xs text-[#b0ddfc] uppercase transition hover:bg-[#0c213b]"
                       href={item.t_1 || '#'}
                       target="_blank">
-                      {isEn ? 'Watch here' : 'شاهد هنا'}
+                      {t('watchHere')}
                       <IoIosArrowForward
                         className={`ms-2 ${contextLang === 'ar' ? 'scale-x-[-1]' : ''}`}
                       />

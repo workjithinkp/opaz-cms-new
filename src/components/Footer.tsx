@@ -25,7 +25,7 @@ export default function Footer() {
           setMenusData(result.data)
         }
       } catch (error) {
-        console.error('Failed to load footer menus:', error)
+        // Error loading menus
       }
     }
     loadMenus()
@@ -41,7 +41,7 @@ export default function Footer() {
           setSocialMedia(result.data.social_media)
         }
       } catch (error) {
-        console.error('Failed to load social media:', error)
+        // Error loading social media
       }
     }
     loadSocialMedia()
@@ -57,7 +57,7 @@ export default function Footer() {
           setContactInfo(result.data.contact)
         }
       } catch (error) {
-        console.error('Failed to load contact info:', error)
+        // Error loading contact info
       }
     }
     loadContactInfo()

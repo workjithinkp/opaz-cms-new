@@ -23,7 +23,7 @@ export default function HomeBanner({ section }: HomeBannerProps) {
 
     video.muted = true;
     video.play().catch(() => {
-      console.warn('Autoplay blocked');
+      // Autoplay may be blocked by browser
     });
   }, [currentIndex]);
 

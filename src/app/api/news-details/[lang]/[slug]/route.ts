@@ -16,7 +16,6 @@ export async function GET(
 
   for (const url of endpoints) {
     try {
-      console.log('Trying endpoint:', url)
       const upstream = await fetch(url, { 
         cache: 'no-store',
         headers: {
@@ -26,11 +25,9 @@ export async function GET(
 
       if (upstream.ok) {
         const data = await upstream.json()
-        console.log('Success with:', url)
         return NextResponse.json(data)
       }
     } catch (error) {
-      console.error(`Failed with ${url}:`, error)
       continue
     }
   }

@@ -165,7 +165,6 @@ export default function SectionRenderer({ section, lang, slug }: SectionRenderer
     
     // Fallback
     default:
-      console.warn(`No component found for template: ${template}`);
       return null;
   }
 }

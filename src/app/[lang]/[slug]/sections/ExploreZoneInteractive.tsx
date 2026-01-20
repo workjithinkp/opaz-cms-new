@@ -7,6 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import Link from 'next/link'
 import { IoIosArrowForward } from 'react-icons/io'
+import { useTranslations } from '@/lib/useTranslations'
 import {
   Table,
   TableBody,
@@ -25,6 +26,7 @@ interface ExploreZoneInteractiveProps {
 
 export default function ExploreZoneInteractive({ section }: ExploreZoneInteractiveProps) {
   const { lang } = useLang()
+  const t = useTranslations()
   const isEn = lang === 'en'
   const { block, list } = section
 
@@ -100,28 +102,28 @@ export default function ExploreZoneInteractive({ section }: ExploreZoneInteracti
             <TableHeader>
               <TableRow className="!border-b !border-[#DAF0FE]/20">
                 <TableHead className="px-4 py-4 text-center">
-                  {lang === 'en' ? `No.` : `رقم`}
+                  {t('no')}
                 </TableHead>
                 <TableHead className="px-4 py-4">
-                  {lang === 'en' ? `Location` : `الموقع`}
+                  {t('location')}
                 </TableHead>
                 <TableHead className="px-4 py-4">
-                  {lang === 'en' ? `Sectors` : `القطاعات`}
+                  {t('sectors')}
                 </TableHead>
                 <TableHead className="px-4 py-4">
-                  {lang === 'en' ? `Ports and Customs` : `الموانئ والجمارك`}
+                  {t('portsAndCustoms')}
                 </TableHead>
                 <TableHead className="px-4 py-4">
-                  {lang === 'en' ? `Rental Rates` : `الرسوم الإيجارية`}
+                  {t('rentalRates')}
                 </TableHead>
                 <TableHead className="px-4 py-4">
-                  {lang === 'en' ? `Utilities` : `الخدمات`}
+                  {t('utilities')}
                 </TableHead>
                 <TableHead className="px-4 py-4">
-                  {lang === 'en' ? `Localization` : `التعمين`}
+                  {t('localization')}
                 </TableHead>
                 <TableHead className="px-4 py-4">
-                  {lang === 'en' ? `Tax` : `الضرائب`}
+                  {t('tax')}
                 </TableHead>
               </TableRow>
             </TableHeader>
@@ -164,7 +166,7 @@ export default function ExploreZoneInteractive({ section }: ExploreZoneInteracti
             href={block.t_1 || 'https://omap.om/'}
             target="_blank"
             className="inline-flex items-center rounded-sm border border-blue-300 bg-blue-300/30 px-6 py-3 text-[#b0ddfc] uppercase transition hover:bg-[#0c213b]">
-            {block.c_3 || (lang === 'en' ? `EXPLORE OUR ZONES` : `اكتشف مناطقنا`)}{' '}
+            {block.c_3 || t('exploreOurZones')}{' '}
             <IoIosArrowForward />
           </Link>
         </div>
