@@ -77,7 +77,7 @@ export default function Footer() {
             {/* SITE MAP */}
             <div className='md:pb-0 mb-6'>
               <h3 className="pb-4 font-semibold uppercase text-gray-900">
-                {footer.siteMap.title[lang]}
+                {footer.siteMap.title[lang as keyof typeof footer.siteMap.title]}
               </h3>
               <ul className="space-y-2">
                 {menusData?.menu3?.items && menusData.menu3.items.length > 0 ? (
@@ -114,7 +114,7 @@ export default function Footer() {
                   footer.siteMap.links.map((item) => (
                     <li key={item.href}>
                       <Link href={item.href} className='group relative inline-block transition-all hover:text-gray-900'>
-                        {item.label[lang]}
+                        {item.label[lang as keyof typeof item.label]}
                         <span className="liner"></span>
                       </Link>
                     </li>
@@ -126,7 +126,7 @@ export default function Footer() {
             {/* USEFUL LINKS */}
             <div className='md:pb-0 mb-6'>
               <h3 className="pb-4 font-semibold uppercase text-gray-900">
-                {footer.usefulLinks.title[lang]}
+                {footer.usefulLinks.title[lang as keyof typeof footer.usefulLinks.title]}
               </h3>
               <ul className="space-y-2">
                 {menusData?.menu4?.items && menusData.menu4.items.length > 0 ? (
@@ -162,7 +162,7 @@ export default function Footer() {
                       <Link
                         href={item.href}
                         className='group relative inline-block transition-all hover:text-gray-900'>
-                        {item.label[lang]}
+                        {item.label[lang as keyof typeof item.label]}
                         <span className="liner"></span>
                       </Link>
                     </li>
@@ -174,18 +174,18 @@ export default function Footer() {
             {/* CONTACT */}
             <div className='md:pb-0 mb-6 md:max-w-2xs'>
               <h3 className="pb-4 font-semibold uppercase text-gray-900">
-                {contactInfo?.title || footer.contact.title[lang]}
+                {contactInfo?.title || footer.contact.title[lang as keyof typeof footer.contact.title]}
               </h3>
 
               <p>
-                {contactInfo?.local_call?.label || footer.contact.localCall.label[lang]} <br />
+                {contactInfo?.local_call?.label || footer.contact.localCall.label[lang as keyof typeof footer.contact.localCall.label]} <br />
                 <span className='font-medium' dir="ltr">
                   {contactInfo?.local_call?.number || footer.contact.localCall.value}
                 </span>
               </p>
 
               <p className="mt-2">
-                {contactInfo?.international_call?.label || footer.contact.internationalCall.label[lang]} <br />
+                {contactInfo?.international_call?.label || footer.contact.internationalCall.label[lang as keyof typeof footer.contact.internationalCall.label]} <br />
                 <span className='font-medium' dir="ltr">
                   {contactInfo?.international_call?.number || footer.contact.internationalCall.value}
                 </span>
@@ -196,7 +196,7 @@ export default function Footer() {
               </p>
 
               <p className="mt-2">
-                {contactInfo?.address || footer.contact.address[lang]}
+                {contactInfo?.address || footer.contact.address[lang as keyof typeof footer.contact.address]}
               </p>
               
               <div className="flex items-center space-x-7 text-2xl text-[#9d6d53] pt-4">
@@ -357,7 +357,7 @@ export default function Footer() {
             </div>
 
             <div className="text-center text-sm font-medium text-gray-900 uppercase">
-              {footer.copyright[lang]}
+              {footer.copyright[lang as keyof typeof footer.copyright]}
             </div>
 
             <div className="flex items-end md:justify-end justify-center">
