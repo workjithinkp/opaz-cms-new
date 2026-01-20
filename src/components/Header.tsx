@@ -196,7 +196,7 @@ export default function Header() {
               <div
                 ref={marqueeRef}
                 className="inline-block whitespace-nowrap text-gray-900">
-                {marqueeTexts.map((text, i) => (
+                {[...marqueeTexts, ...marqueeTexts].map((text, i) => (
                   <span key={i} className="mx-8 inline-block">
                     {text}
                   </span>
