@@ -51,7 +51,7 @@ export default function Footer() {
   useEffect(() => {
     const loadContactInfo = async () => {
       try {
-        const response = await fetch('/api/settings/footer-contact')
+        const response = await fetch(`/api/settings/footer-contact?locale=${lang}`)
         const result = await response.json()
         if (result.success) {
           setContactInfo(result.data.contact)
@@ -61,7 +61,7 @@ export default function Footer() {
       }
     }
     loadContactInfo()
-  }, [])
+  }, [lang])
 
   const toArabicNumber = (num: string) => {
     const arabicNumbers = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩']
