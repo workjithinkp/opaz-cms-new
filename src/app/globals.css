@@ -19,6 +19,11 @@
 strong{
   display: inline;
 }
+
+/* Prevent stray horizontal scroll from pinned/animated sections */
+html, body {
+  overflow-x: hidden;
+}
 /* Width */
 
 ::-webkit-scrollbar {
