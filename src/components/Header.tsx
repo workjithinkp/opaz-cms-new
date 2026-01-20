@@ -149,24 +149,32 @@ export default function Header() {
   /*MARQUEE*/
   useEffect(() => {
     const track = marqueeRef.current
-    if (!track) return
+    if (!track || marqueeTexts.length === 0) return
 
-    gsap.killTweensOf(track)
+    // Small delay to ensure DOM has rendered and scrollWidth is calculated
+    const timer = setTimeout(() => {
+      gsap.killTweensOf(track)
 
-    const width = track.scrollWidth / 2
-    const fromX = lang === 'ar' ? -width : 0
-    const toX = lang === 'ar' ? 0 : -width
+      const width = track.scrollWidth / 2
+      if (width === 0) return // Exit if width is still 0
 
-    gsap.set(track, { x: fromX })
-    gsap.to(track, {
-      x: toX,
-      duration: 20,
-      ease: 'none',
-      repeat: -1,
-    })
+      const fromX = lang === 'ar' ? -width : 0
+      const toX = lang === 'ar' ? 0 : -width
 
-    return () => gsap.killTweensOf(track)
-  }, [lang])
+      gsap.set(track, { x: fromX })
+      gsap.to(track, {
+        x: toX,
+        duration: 20,
+        ease: 'none',
+        repeat: -1,
+      })
+    }, 50)
+
+    return () => {
+      clearTimeout(timer)
+      gsap.killTweensOf(track)
+    }
+  }, [lang, marqueeTexts])
 
   return (
     <header ref={headerRef} className="fixed inset-x-0 top-6 z-50 opacity-0">
