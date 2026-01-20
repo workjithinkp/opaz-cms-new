@@ -1,0 +1,148 @@
+{
+  "CareerHero": {
+    "title": {
+      "en": "Shape the Future of Oman’s Economic and Free Zones",
+      "ar": "تشكيل مستقبل المناطق الاقتصادية والمناطق الحرة في عُمان",
+      "es": "Dar forma al futuro de las zonas económicas y francas de Omán",
+      "fr": "Façonner l’avenir des zones économiques et franches d’Oman",
+      "de": "Die Zukunft der Wirtschafts- und Freizonen Omans gestalten",
+      "zh": "塑造阿曼经济区和自由区的未来",
+      "ja": "オマーンの経済特区・自由区の未来を形作る",
+      "ru": "Формирование будущего экономических и свободных зон Омана"
+    }
+  },
+  "CareerFuture": {
+    "title": {
+      "en": "Shape Oman’s Future. Transform Your Own.",
+      "ar": "شكّل مستقبل عُمان. وغيّر مستقبلك أنت.",
+      "es": "Da forma al futuro de Omán. Transforma el tuyo.",
+      "fr": "Façonnez l’avenir d’Oman. Transformez le vôtre.",
+      "de": "Gestalten Sie Omans Zukunft. Verändern Sie Ihre eigene.",
+      "zh": "塑造阿曼的未来，改变你的人生。",
+      "ja": "オマーンの未来を形作り、自分の未来を変える。",
+      "ru": "Формируйте будущее Омана. Измените своё собственное."
+    },
+    "discription": {
+      "en": "The vision of OPAZ is to transform special economic zones and free zones in Oman into a world-class investment hub. Discover rewarding opportunities in a dynamic and collaborative environment that will also transform your life and career.",
+      "ar": "تتمثل رؤية أوباز في تحويل المناطق الاقتصادية الخاصة والمناطق الحرة في عُمان إلى مركز استثماري عالمي المستوى. اكتشف فرصًا مجزية في بيئة ديناميكية وتعاونية تسهم في تطوير حياتك ومسيرتك المهنية.",
+      "es": "La visión de OPAZ es transformar las zonas económicas especiales y las zonas francas de Omán en un centro de inversión de clase mundial. Descubra oportunidades gratificantes en un entorno dinámico y colaborativo que también transformará su vida y su carrera.",
+      "fr": "La vision d’OPAZ est de transformer les zones économiques spéciales et les zones franches d’Oman en un pôle d’investissement de classe mondiale. Découvrez des opportunités enrichissantes dans un environnement dynamique et collaboratif qui transformera également votre vie et votre carrière.",
+      "de": "Die Vision von OPAZ ist es, die Sonderwirtschaftszonen und Freizonen Omans zu einem erstklassigen globalen Investitionszentrum zu entwickeln. Entdecken Sie lohnende Chancen in einem dynamischen und kooperativen Umfeld, das auch Ihr Leben und Ihre Karriere verändern wird.",
+      "zh": "OPAZ 的愿景是将阿曼的经济特区和自由区打造成为世界一流的投资中心。在充满活力与协作精神的环境中，发现丰富的发展机遇，成就您的事业与人生。",
+      "ja": "OPAZのビジョンは、オマーンの経済特区および自由区を世界水準の投資拠点へと発展させることです。活気に満ちた協働的な環境の中で、人生とキャリアを変える価値ある機会を見つけてください。",
+      "ru": "Видение OPAZ заключается в преобразовании специальных экономических зон и свободных зон Омана в инвестиционный центр мирового класса. Откройте для себя перспективные возможности в динамичной и совместной среде, которая поможет изменить вашу жизнь и карьеру."
+    },
+    "link": {
+      "en": "Contact Us",
+      "ar": "اتصل بنا",
+      "es": "Contáctenos",
+      "fr": "Contactez-nous",
+      "de": "Kontaktieren Sie uns",
+      "zh": "联系我们",
+      "ja": "お問い合わせ",
+      "ru": "Связаться с нами"
+    }
+  },
+  "CareerWorkplace": {
+    "title": {
+      "en": "A Workplace Where You Thrive",
+      "ar": "بيئة عمل تُمكّنك من النجاح والازدهار",
+      "es": "Un lugar de trabajo donde puedes prosperar",
+      "fr": "Un environnement de travail où vous pouvez vous épanouir",
+      "de": "Ein Arbeitsplatz, an dem Sie sich entfalten können",
+      "zh": "一个助你成长与发展的工作环境",
+      "ja": "成長し、活躍できる職場環境",
+      "ru": "Рабочая среда, в которой вы можете развиваться"
+    },
+    "workplace": [
+      {
+        "title": {
+          "en": "Innovation & Impact",
+          "ar": "الابتكار والأثر",
+          "es": "Innovación e impacto",
+          "fr": "Innovation et impact",
+          "de": "Innovation und Wirkung",
+          "zh": "创新与影响力",
+          "ja": "イノベーションと影響力",
+          "ru": "Инновации и влияние"
+        },
+        "desc": {
+          "en": "OPAZ organizes events and workshops, such as those for World Creativity and Innovation Day, to promote innovative practices and a culture of innovation within its operational framework.",
+          "ar": "تنظم أوباز فعاليات وورش عمل، مثل فعاليات اليوم العالمي للإبداع والابتكار، لتعزيز الممارسات المبتكرة وترسيخ ثقافة الابتكار ضمن إطارها التشغيلي.",
+          "es": "OPAZ organiza eventos y talleres, como los del Día Mundial de la Creatividad y la Innovación, para promover prácticas innovadoras y una cultura de innovación dentro de su marco operativo.",
+          "fr": "OPAZ organise des événements et des ateliers, tels que ceux de la Journée mondiale de la créativité et de l’innovation, afin de promouvoir des pratiques innovantes et une culture de l’innovation.",
+          "de": "OPAZ organisiert Veranstaltungen und Workshops, wie etwa zum Welttag der Kreativität und Innovation, um innovative Praktiken und eine Innovationskultur innerhalb ihres operativen Rahmens zu fördern.",
+          "zh": "OPAZ 通过组织世界创造力与创新日等活动和研讨会，推动创新实践并在其运营体系中培育创新文化。",
+          "ja": "OPAZは、世界創造性・イノベーション・デーなどのイベントやワークショップを通じて、革新的な取り組みとイノベーション文化の促進に取り組んでいます。",
+          "ru": "OPAZ организует мероприятия и семинары, такие как Всемирный день творчества и инноваций, способствуя развитию инновационных практик и культуры инноваций."
+        }
+      },
+      {
+        "title": {
+          "en": "Inclusive & Collaborative Culture",
+          "ar": "ثقافة شاملة وتعاونية",
+          "es": "Cultura inclusiva y colaborativa",
+          "fr": "Une culture inclusive et collaborative",
+          "de": "Eine inklusive und kooperative Kultur",
+          "zh": "包容与协作的文化",
+          "ja": "包括的で協力的な文化",
+          "ru": "Инклюзивная и совместная культура"
+        },
+        "desc": {
+          "en": "A strong organizational culture, defined by mutual respect, shared values, and a sense of purpose, promotes an inclusive and productive work environment.",
+          "ar": "تُسهم الثقافة المؤسسية القوية، القائمة على الاحترام المتبادل والقيم المشتركة والإحساس بالهدف، في تعزيز بيئة عمل شاملة ومنتجة.",
+          "es": "Una cultura organizacional sólida, basada en el respeto mutuo, los valores compartidos y un propósito común, fomenta un entorno de trabajo inclusivo y productivo.",
+          "fr": "Une culture organisationnelle forte, fondée sur le respect mutuel, des valeurs partagées et un objectif commun, favorise un environnement de travail inclusif et productif.",
+          "de": "Eine starke Organisationskultur, geprägt von gegenseitigem Respekt, gemeinsamen Werten und einem klaren Ziel, fördert ein inklusives und produktives Arbeitsumfeld.",
+          "zh": "以相互尊重、共同价值观和使命感为基础的强大组织文化，营造了包容且高效的工作环境。",
+          "ja": "相互尊重、共通の価値観、そして目的意識に基づく強固な組織文化は、包括的で生産性の高い職場環境を生み出します。",
+          "ru": "Сильная корпоративная культура, основанная на взаимном уважении, общих ценностях и чувстве цели, способствует созданию инклюзивной и продуктивной рабочей среды."
+        }
+      },
+      {
+        "title": {
+          "en": "Learning & Development Opportunities",
+          "ar": "فرص التعلم والتطوير",
+          "es": "Oportunidades de aprendizaje y desarrollo",
+          "fr": "Opportunités d’apprentissage et de développement",
+          "de": "Lern- und Entwicklungsmöglichkeiten",
+          "zh": "学习与发展机会",
+          "ja": "学びと成長の機会",
+          "ru": "Возможности обучения и развития"
+        },
+        "desc": {
+          "en": "Learning opportunities through strategic initiatives, such as the Digital Services Platform (DSP), and by promoting a culture of continuous learning and development through health and wellness programs.",
+          "ar": "تُوفر فرص التعلم من خلال المبادرات الاستراتيجية مثل منصة الخدمات الرقمية (DSP)، وتعزز ثقافة التعلم والتطوير المستمر عبر برامج الصحة والرفاهية.",
+          "es": "Se ofrecen oportunidades de aprendizaje a través de iniciativas estratégicas como la Plataforma de Servicios Digitales (DSP), promoviendo una cultura de aprendizaje y desarrollo continuo.",
+          "fr": "Des opportunités d’apprentissage sont proposées à travers des initiatives stratégiques telles que la Plateforme de services numériques (DSP), favorisant une culture d’apprentissage et de développement continus.",
+          "de": "Lernmöglichkeiten werden durch strategische Initiativen wie die Digitale Serviceplattform (DSP) geboten und durch Programme zur Förderung kontinuierlicher Weiterbildung ergänzt.",
+          "zh": "通过数字服务平台（DSP）等战略举措，并结合健康与福祉项目，持续推动学习与发展的文化。",
+          "ja": "デジタルサービスプラットフォーム（DSP）などの戦略的施策を通じて、継続的な学習と成長を促進しています。",
+          "ru": "Возможности обучения предоставляются через стратегические инициативы, такие как Цифровая платформа услуг (DSP), а также через развитие культуры непрерывного обучения."
+        }
+      }
+    ]
+  },
+  "CareerVacancies": {
+    "title": {
+      "en": "Latest Vacancies",
+      "ar": "أحدث الوظائف الشاغرة",
+      "es": "Últimas vacantes",
+      "fr": "Dernières offres d’emploi",
+      "de": "Neueste Stellenangebote",
+      "zh": "最新职位空缺",
+      "ja": "最新の求人情報",
+      "ru": "Последние вакансии"
+    },
+    "subtitle": {
+      "en": "No available vacancies right now",
+      "ar": "لا توجد وظائف شاغرة حاليًا",
+      "es": "No hay vacantes disponibles en este momento",
+      "fr": "Aucun poste vacant pour le moment",
+      "de": "Derzeit sind keine Stellen verfügbar",
+      "zh": "目前暂无职位空缺",
+      "ja": "現在、募集している職種はありません",
+      "ru": "В настоящее время вакансий нет"
+    }
+  }
+}

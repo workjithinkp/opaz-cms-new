@@ -1,0 +1,10 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Add translations usage in HomeGateway",
+			"type": "shell",
+			"command": "echo Updating HomeGateway.tsx to use translations"
+		}
+	]
+}

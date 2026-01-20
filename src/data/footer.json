@@ -1,0 +1,235 @@
+{
+  "siteMap": {
+    "title": {
+      "en": "Site Map",
+      "ar": "خارطة الموقع",
+      "es": "Mapa del sitio",
+      "zh": "网站地图",
+      "fr": "Plan du site",
+      "de": "Sitemap",
+      "ja": "サイトマップ",
+      "ru": "Карта сайта"
+    },
+    "links": [
+      {
+        "href": "/about",
+        "label": {
+          "en": "About Us",
+          "ar": "عن الهيئة",
+          "es": "Sobre nosotros",
+          "zh": "关于我们",
+          "fr": "À propos",
+          "de": "Über uns",
+          "ja": "私たちについて",
+          "ru": "О нас"
+        }
+      },
+      {
+        "href": "/contact-us",
+        "label": {
+          "en": "Contact Us",
+          "ar": "اتصل بنا",
+          "es": "Contáctenos",
+          "zh": "联系我们",
+          "fr": "Contactez-nous",
+          "de": "Kontakt",
+          "ja": "お問い合わせ",
+          "ru": "Связаться с нами"
+        }
+      },
+      {
+        "href": "/career",
+        "label": {
+          "en": "Careers",
+          "ar": "الوظائف",
+          "es": "Empleos",
+          "zh": "招聘",
+          "fr": "Carrières",
+          "de": "Karriere",
+          "ja": "採用情報",
+          "ru": "Карьера"
+        }
+      },
+      {
+        "href": "/terms",
+        "label": {
+          "en": "Privacy Policy",
+          "ar": "سياسة الخصوصية",
+          "es": "Política de privacidad",
+          "zh": "隐私政策",
+          "fr": "Politique de confidentialité",
+          "de": "Datenschutz",
+          "ja": "プライバシーポリシー",
+          "ru": "Политика конфиденциальности"
+        }
+      }
+    ]
+  },
+
+  "usefulLinks": {
+    "title": {
+      "en": "Useful Links",
+      "ar": "روابط مفيدة",
+      "es": "Enlaces útiles",
+      "zh": "实用链接",
+      "fr": "Liens utiles",
+      "de": "Nützliche Links",
+      "ja": "便利なリンク",
+      "ru": "Полезные ссылки"
+    },
+    "links": [
+      {
+        "href": "https://www.business.gov.om/",
+        "label": {
+          "en": "Ministry of Commerce, Industry and Investment",
+          "ar": "وزارة التجارة والصناعة وترويج الاستثمار",
+          "es": "Ministerio de Comercio, Industria y Promoción de Inversiones",
+          "zh": "商业、工业和投资促进部",
+          "fr": "Ministère du Commerce, de l’Industrie et de la Promotion des investissements",
+          "de": "Ministerium für Handel, Industrie und Investitionsförderung",
+          "ja": "商工・投資促進省",
+          "ru": "Министерство торговли, промышленности и привлечения инвестиций"
+        }
+      },
+      {
+        "href": "https://www.mol.gov.om/",
+        "label": {
+          "en": "Ministry of Labour",
+          "ar": "وزارة العمل",
+          "es": "Ministerio de Trabajo",
+          "zh": "劳工部",
+          "fr": "Ministère du Travail",
+          "de": "Arbeitsministerium",
+          "ja": "労働省",
+          "ru": "Министерство труда"
+        }
+      },
+      {
+        "href": "https://mafwr.gov.om/public/home",
+        "label": {
+          "en": "Ministry of Agriculture, Fisheries and Water Resources",
+          "ar": "وزارة الثروة الزراعية والسمكية وموارد المياه",
+          "es": "Ministerio de Agricultura, Pesca y Recursos Hídricos",
+          "zh": "农业、渔业和水资源部",
+          "fr": "Ministère de l’Agriculture, des Pêches et des Ressources en eau",
+          "de": "Ministerium für Landwirtschaft, Fischerei und Wasserressourcen",
+          "ja": "農業・漁業・水資源省",
+          "ru": "Министерство сельского хозяйства, рыболовства и водных ресурсов"
+        }
+      },
+       {
+        "href": "https://www.rop.gov.om/",
+        "label": {
+          "en": "Royal Oman Police",
+          "ar": "",
+          "es": "",
+          "zh": "",
+          "fr": "",
+          "de": "",
+          "ja": "",
+          "ru": ""
+        }
+      },
+       {
+        "href": "https://www.ea.gov.om/",
+        "label": {
+          "en": "Environment Authority",
+          "ar": "",
+          "es": "",
+          "zh": "",
+          "fr": "",
+          "de": "",
+          "ja": "",
+          "ru": ""
+        }
+      },
+       {
+        "href": "https://omanchamber.om/",
+        "label": {
+          "en": "Oman Chamber of Commerce and Industry",
+          "ar": "",
+          "es": "",
+          "zh": "",
+          "fr": "",
+          "de": "",
+          "ja": "",
+          "ru": ""
+        }
+      },
+       {
+        "href": "https://oia.gov.om/",
+        "label": {
+          "en": "Oman Investment Authority",
+          "ar": "",
+          "es": "",
+          "zh": "",
+          "fr": "",
+          "de": "",
+          "ja": "",
+          "ru": ""
+        }
+      }
+    ]
+  },
+
+  "contact": {
+    "title": {
+      "en": "Contact Us",
+      "ar": "اتصل بنا",
+      "es": "Contáctenos",
+      "zh": "联系我们",
+      "fr": "Contactez-nous",
+      "de": "Kontakt",
+      "ja": "お問い合わせ",
+      "ru": "Контакты"
+    },
+    "localCall": {
+      "label": {
+        "en": "Local Call",
+        "ar": "مركز التواصل",
+        "es": "Llamada local",
+        "zh": "本地电话",
+        "fr": "Appel local",
+        "de": "Inlandsgespräch",
+        "ja": "国内通話",
+        "ru": "Местный звонок"
+      },
+      "value": "1919"
+    },
+    "internationalCall": {
+      "label": {
+        "en": "International Call",
+        "ar": "التواصل الدولي",
+        "es": "Llamada internacional",
+        "zh": "国际电话",
+        "fr": "Appel international",
+        "de": "Internationaler Anruf",
+        "ja": "国際通話",
+        "ru": "Международный звонок"
+      },
+      "value": "+968 800111 10"
+    },
+    "email": "call.center@opaz.gov.om",
+    "address": {
+      "en": "P.O. Box 77, Postal Code 100, Muscat, Sultanate of Oman",
+      "ar": "صندوق بريد 77، الرمز البريدي 100، مسقط، سلطنة عُمان",
+      "es": "Apartado postal 77, código postal 100, Mascate, Sultanato de Omán",
+      "zh": "邮政信箱77，邮编100，马斯喀特，阿曼苏丹国",
+      "fr": "Boîte postale 77, code postal 100, Mascate, Sultanat d’Oman",
+      "de": "Postfach 77, Postleitzahl 100, Maskat, Sultanat Oman",
+      "ja": "私書箱77、郵便番号100、マスカット、オマーン国",
+      "ru": "Почтовый ящик 77, индекс 100, Маскат, Султанат Оман"
+    }
+  },
+
+  "copyright": {
+    "en": "© Public Authority for Special Economic Zones and Free Zones",
+    "ar": "© الهيئة العامة للمناطق الاقتصادية الخاصة والمناطق الحرة",
+    "es": "© Autoridad Pública de Zonas Económicas Especiales y Zonas Francas",
+    "zh": "© 公共特殊经济区和自由区管理局",
+    "fr": "© Autorité publique des zones économiques spéciales et des zones franches",
+    "de": "© Öffentliche Behörde für Sonderwirtschaftszonen und Freizonen",
+    "ja": "© 特別経済区および自由区公共機関",
+    "ru": "© Государственное управление специальных экономических зон и свободных зон"
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "Banner": {
+    "title": {
+      "en": "THE GATEWAY TO OMAN IS OPEN",
+      "ar": "بوابة عُمان مفتوحة",
+      "es": "La puerta de entrada a Omán está abierta",
+      "fr": "La porte d’entrée vers Oman est ouverte",
+      "de": "Das Tor zu Oman ist geöffnet",
+      "zh": "通往阿曼的大门已经开启",
+      "ja": "オマーンへの扉が開かれています",
+      "ru": "Ворота в Оман открыты"
+    },
+    "description": {
+      "en": "Simple. Seamless. Strategic. Welcome to your complete business destination.",
+      "ar": "بسيط. سلس. استراتيجي. مرحبًا بكم في وجهتكم المتكاملة للأعمال.",
+      "es": "Simple. Fluido. Estratégico. Bienvenido a tu destino empresarial integral.",
+      "fr": "Simple. Fluide. Stratégique. Bienvenue dans votre destination d’affaires complète.",
+      "de": "Einfach. Nahtlos. Strategisch. Willkommen an Ihrem umfassenden Unternehmensstandort.",
+      "zh": "简单。高效。战略。欢迎来到您的一站式商业目的地。",
+      "ja": "シンプル。シームレス。戦略的。ビジネスのすべてが揃う目的地へようこそ。",
+      "ru": "Просто. Бесшовно. Стратегически. Добро пожаловать в ваш комплексный деловой центр."
+    },
+    "btnTextOne": {
+      "en": "Strategic Advantages",
+      "ar": "المزايا الاستراتيجية",
+      "es": "Ventajas estratégicas",
+      "fr": "Avantages stratégiques",
+      "de": "Strategische Vorteile",
+      "zh": "战略优势",
+      "ja": "戦略的優位性",
+      "ru": "Стратегические преимущества"
+    },
+    "btnTextTwo": {
+      "en": "Investment Enablers",
+      "ar": "مُمكّنات الاستثمار",
+      "es": "Facilitadores de inversión",
+      "fr": "Catalyseurs d’investissement",
+      "de": "Investitionsfördernde Faktoren",
+      "zh": "投资赋能要素",
+      "ja": "投資促進要素",
+      "ru": "Инструменты для инвестиций"
+    }
+  },
+  "Advantages": {
+    "title": {
+      "en": "Strategic Advantages",
+      "ar": "المزايا الاستراتيجية",
+      "es": "Ventajas estratégicas",
+      "fr": "Avantages stratégiques",
+      "de": "Strategische Vorteile",
+      "zh": "战略优势",
+      "ja": "戦略的優位性",
+      "ru": "Стратегические преимущества"
+    },
+    "heading": {
+      "en": "Strategic Location",
+      "ar": "موقع استراتيجي",
+      "es": "Ubicación estratégica",
+      "fr": "Emplacement stratégique",
+      "de": "Strategische Lage",
+      "zh": "战略位置",
+      "ja": "戦略的立地",
+      "ru": "Стратегическое расположение"
+    },
+    "description": {
+      "en": "A crucial gateway to global markets between Africa, Asia, and Europe, with substantial investments in its two innovative technology parks, four major seaports, three industrial ports, four award-winning airports, and close proximity to emerging markets of over one billion people, Oman thrives at the crossroads of major international trade routes.",
+      "ar": "تُعدّ عُمان بوابة محورية للأسواق العالمية بين أفريقيا وآسيا وأوروبا، مدعومة باستثمارات كبيرة في متنزّهين تقنيين مبتكرين، وأربعة موانئ بحرية رئيسية، وثلاثة موانئ صناعية، وأربعة مطارات حائزة على جوائز، إلى جانب قربها من أسواق ناشئة تضم أكثر من مليار نسمة، مما يجعلها في قلب طرق التجارة الدولية الرئيسية.",
+      "es": "Omán es una puerta clave a los mercados globales entre África, Asia y Europa, con importantes inversiones en dos parques tecnológicos innovadores, cuatro grandes puertos marítimos, tres puertos industriales y cuatro aeropuertos galardonados, además de su cercanía a mercados emergentes de más de mil millones de personas, lo que la sitúa en el cruce de las principales rutas comerciales internacionales.",
+      "fr": "Oman constitue une porte d’entrée essentielle vers les marchés mondiaux entre l’Afrique, l’Asie et l’Europe, soutenue par d’importants investissements dans deux parcs technologiques innovants, quatre grands ports maritimes, trois ports industriels et quatre aéroports primés, ainsi que par sa proximité avec des marchés émergents de plus d’un milliard de personnes, plaçant le pays au carrefour des principales routes commerciales internationales.",
+      "de": "Oman ist ein entscheidendes Tor zu den globalen Märkten zwischen Afrika, Asien und Europa, mit erheblichen Investitionen in zwei innovative Technologieparks, vier große Seehäfen, drei Industriehäfen und vier preisgekrönte Flughäfen. In unmittelbarer Nähe zu aufstrebenden Märkten mit über einer Milliarde Menschen liegt das Land an der Schnittstelle zentraler internationaler Handelsrouten.",
+      "zh": "阿曼位于非洲、亚洲和欧洲之间，是通往全球市场的重要门户。该国在两个创新型科技园区、四个主要海港、三个工业港口以及四座屡获殊荣的机场方面进行了大量投资，并毗邻覆盖十多亿人口的新兴市场，坐落于重要国际贸易航线的交汇点。",
+      "ja": "オマーンは、アフリカ・アジア・ヨーロッパを結ぶ世界市場への重要な玄関口であり、2つの革新的なテクノロジーパーク、4つの主要港湾、3つの工業港、そして4つの受賞歴を誇る空港への大規模な投資を背景に、10億人以上を抱える新興市場に近接し、主要な国際貿易ルートの要衝に位置しています。",
+      "ru": "Оман является важнейшими воротами к мировым рынкам между Африкой, Азией и Европой, благодаря значительным инвестициям в два инновационных технологических парка, четыре крупных морских порта, три промышленных порта и четыре отмеченных наградами аэропорта. Близость к развивающимся рынкам с населением более одного миллиарда человек делает страну ключевым узлом основных международных торговых маршрутов."
+    },
+    "link": {
+      "en": "Explore",
+      "ar": "استكشف",
+      "es": "Explorar",
+      "fr": "Explorer",
+      "de": "Entdecken",
+      "zh": "探索",
+      "ja": "探索する",
+      "ru": "Исследовать"
+    }
+  },
+  "Investment": {
+    "title": {
+      "en": "Investment Enablers",
+      "ar": "مُمكّنات الاستثمار",
+      "es": "Facilitadores de inversión",
+      "fr": "Catalyseurs d’investissement",
+      "de": "Investitionsfördernde Faktoren",
+      "zh": "投资赋能要素",
+      "ja": "投資促進要素",
+      "ru": "Инструменты для инвестиций"
+    },
+    "items": [
+      {
+        "key": "plan",
+        "title": {
+          "en": "Physical<br /> Infrastructure",
+          "ar": "البنية التحتية المادية",
+          "es": "Infraestructura<br /> Física",
+          "fr": "Infrastructure<br /> Physique",
+          "de": "Physische<br /> Infrastruktur",
+          "zh": "实体<br />基础设施",
+          "ja": "物理的<br />インフラ",
+          "ru": "Физическая<br /> Инфраструктура"
+        },
+        "img": "/invest-tab-01.jpg",
+        "desc": {
+          "en": "Experience unmatched efficiency every step of the manufacturing process. From fully-furnished offices to smaller shared spaces, get your business up and running faster with work environments that work for you.",
+          "ar": "اختبر مستوى جديدًا من الكفاءة في كل خطوة من رحلتك الصناعية. سواء كنت تبحث عن مكاتب متكاملة التجهيز أو مساحات عمل مشتركة مرنة، توفر لك عُمان بيئات عمل ذكية تُمكّنك من الانطلاق بأعمالك بسرعة وثقة.",
+          "es": "Experimente una eficiencia inigualable en cada etapa del proceso de fabricación. Desde oficinas totalmente equipadas hasta espacios compartidos más pequeños, ponga su negocio en marcha más rápido con entornos de trabajo diseñados para impulsar su éxito.",
+          "fr": "Découvrez une efficacité inégalée à chaque étape du processus de fabrication. Des bureaux entièrement équipés aux espaces partagés plus compacts, lancez votre activité plus rapidement grâce à des environnements de travail conçus pour soutenir votre réussite.",
+          "de": "Erleben Sie eine unvergleichliche Effizienz in jeder Phase des Fertigungsprozesses. Von vollständig ausgestatteten Büros bis hin zu kleineren Gemeinschaftsflächen ermöglichen Arbeitsumgebungen, die auf Ihre Bedürfnisse zugeschnitten sind, einen schnelleren Markteintritt.",
+          "zh": "在制造流程的每一个阶段体验无与伦比的效率。从全配套办公空间到灵活的共享空间，为企业提供高效运作的工作环境，助力您更快启动并拓展业务。",
+          "ja": "製造プロセスのあらゆる段階で、比類のない効率性を体験してください。設備の整ったオフィスから柔軟な共有スペースまで、ビジネスの迅速な立ち上げを支える最適なワーク環境を提供します。",
+          "ru": "Испытайте непревзойдённую эффективность на каждом этапе производственного процесса. От полностью оснащённых офисов до компактных общих пространств — рабочие среды, созданные для вашего бизнеса, помогут быстрее запустить и развивать деятельность."
+        }
+      },
+      {
+        "key": "regulate",
+        "title": {
+          "en": "Energy &<br /> Utilities",
+          "ar": "الطاقة وخدمات المرافقة العامة",
+          "es": "Energía y<br /> Servicios Públicos",
+          "fr": "Énergie et<br /> Services Publics",
+          "de": "Energie und<br /> Versorgungsdienste",
+          "zh": "能源与<br />公共服务",
+          "ja": "エネルギー・<br />公共サービス",
+          "ru": "Энергетика и<br /> Коммунальные услуги"
+        },
+        "img": "/invest-tab-02.jpg",
+        "desc": {
+          "en": "A robust, interconnected network of readily available, reliable and sustainable energy and utilities that your business needs to fuel your growth.",
+          "ar": "شبكة متكاملة وموثوقة من الطاقة والخدمات المستدامة توفّر كل ما تحتاجه أعمالك للنمو والتوسّع بثبات وكفاءة.",
+          "es": "Una red sólida e interconectada de energía y servicios públicos fiables, disponibles y sostenibles, diseñada para impulsar el crecimiento de su empresa.",
+          "fr": "Un réseau solide et interconnecté d’énergie et de services publics fiables, disponibles et durables, conçu pour soutenir la croissance de votre entreprise.",
+          "de": "Ein robustes, vernetztes System aus zuverlässig verfügbaren und nachhaltigen Energie- und Versorgungsdiensten, das Ihr Unternehmenswachstum unterstützt.",
+          "zh": "一个稳健互联的能源与公共服务网络，具备可靠、可持续且高效的供应能力，为企业发展提供有力支撑。",
+          "ja": "事業の成長を支える、安定性・信頼性・持続可能性を備えたエネルギーおよび公共サービスの強固で相互接続されたネットワークです。",
+          "ru": "Надёжная и взаимосвязанная сеть доступных, устойчивых и экологически ответственных энергетических и коммунальных услуг, обеспечивающая рост вашего бизнеса."
+        }
+      },
+      {
+        "key": "facilitate",
+        "title": {
+          "en": "Ports, Maritime &<br /> Transport Logistics",
+          "ar": "الموانئ والقطاع البحري والخدمات اللوجستية",
+          "es": "Puertos, Sector Marítimo<br /> y Logística de Transporte",
+          "fr": "Ports, Secteur Maritime<br /> et Logistique de Transport",
+          "de": "Häfen, Maritime Wirtschaft<br /> und Transportlogistik",
+          "zh": "港口、海事与<br />运输物流",
+          "ja": "港湾・海事および<br />輸送ロジスティクス",
+          "ru": "Порты, Морская Отрасль<br /> и Транспортная Логистика"
+        },
+        "img": "/invest-tab-03.jpg",
+        "desc": {
+          "en": "Trade with the confidence that even the most complex dry dock and ship repair services within Duqm Special Economic Zone will keep your fleet — and business — moving.",
+          "ar": "مارس أعمالك التجارية بثقة، بفضل القدرات المتقدمة للمنطقة الاقتصادية الخاصة بالدقم من أحواض جافة إلى خدمات صيانة السفن، بما يضمن بقاء أسطولك في جاهزية دائمة واستمرار أعمالك دون انقطاع.",
+          "es": "Opere con total confianza gracias a los servicios avanzados de diques secos y reparación de buques en la Zona Económica Especial de Duqm, que mantienen su flota — y su negocio — en constante movimiento.",
+          "fr": "Menez vos échanges en toute confiance grâce aux services avancés de cales sèches et de réparation navale de la Zone Économique Spéciale de Duqm, garantissant la continuité de votre flotte — et de vos activités.",
+          "de": "Handeln Sie mit Vertrauen dank modernster Trockendock- und Schiffsinstandhaltungsdienste in der Sonderwirtschaftszone Duqm, die Ihre Flotte — und Ihr Geschäft — dauerhaft in Bewegung halten.",
+          "zh": "依托杜库姆经济特区先进的干船坞与船舶维修服务，即使是最复杂的作业也能高效完成，确保您的船队与业务持续运转。",
+          "ja": "ドゥクム特別経済区における高度なドライドックおよび船舶修理サービスにより、最も複雑なニーズにも対応し、船隊とビジネスの継続的な運営を実現します。",
+          "ru": "Ведите торговлю с уверенностью благодаря современным услугам сухих доков и ремонта судов в Особой экономической зоне Дукм, обеспечивающим бесперебойную работу вашего флота и бизнеса."
+        }
+      },
+
+      {
+        "key": "market",
+        "title": {
+          "en": "Support<br /> Services",
+          "ar": "خدمات الدعم",
+          "es": "Servicios de<br /> Apoyo",
+          "fr": "Services de<br /> Soutien",
+          "de": "Unterstützungs-<br />dienste",
+          "zh": "支持<br />服务",
+          "ja": "サポート<br />サービス",
+          "ru": "Службы<br /> Поддержки"
+        },
+        "img": "/invest-tab-04.jpg",
+        "desc": {
+          "en": "Local knowledge, global support. Discover the benefits of the one-stop shop for your business.",
+          "ar": "خبرة محلية بدعم عالمي — اكتشف مزايا المحطة الموحدة التي تمنح أعمالك كل ما تحتاجه من خدمات في مكان واحد.",
+          "es": "Conocimiento local con respaldo global. Descubra las ventajas de un punto único de servicios diseñado para apoyar el crecimiento de su empresa.",
+          "fr": "Une expertise locale soutenue par un appui mondial. Découvrez les avantages d’un guichet unique pensé pour accompagner la croissance de votre entreprise.",
+          "de": "Lokales Know-how mit globaler Unterstützung. Entdecken Sie die Vorteile eines zentralen Anlaufpunkts, der Ihr Unternehmen in jeder Phase unterstützt.",
+          "zh": "融合本地专业经验与全球支持，一站式服务平台为企业发展提供全方位支持。",
+          "ja": "地域に根ざした知見とグローバルな支援を融合したワンストップサービスにより、ビジネスの成長を包括的にサポートします。",
+          "ru": "Местная экспертиза при поддержке глобальных ресурсов. Откройте для себя преимущества принципа «одного окна», обеспечивающего комплексную поддержку вашего бизнеса."
+        }
+      },
+      {
+        "key": "activate",
+        "title": {
+          "en": "Supply Chain<br /> Ecosystem",
+          "ar": "منظومة سلاسل الإمداد",
+          "es": "Ecosistema de<br /> la Cadena de Suministro",
+          "fr": "Écosystème de la<br /> Chaîne d’Approvisionnement",
+          "de": "Ökosystem der<br /> Lieferkette",
+          "zh": "供应链<br />生态体系",
+          "ja": "サプライチェーン<br />エコシステム",
+          "ru": "Экосистема<br /> Цепочек Поставок"
+        },
+        "img": "/invest-tab-05.jpg",
+        "desc": {
+          "en": "Move goods efficiently and cost-effectively with a logistics and distribution network that works.",
+          "ar": "انقل بضائعك بثقة وسلاسة عبر شبكة لوجستية متكاملة تربط كل محطة في سلسلة الإمداد بانسيابية تامة.",
+          "es": "Traslade mercancías de forma eficiente y rentable mediante una red logística y de distribución diseñada para un rendimiento óptimo.",
+          "fr": "Assurez le déplacement des marchandises de manière efficace et rentable grâce à un réseau logistique et de distribution performant.",
+          "de": "Bewegen Sie Waren effizient und kosteneffektiv mit einem leistungsfähigen Logistik- und Vertriebsnetzwerk.",
+          "zh": "通过高效运作的物流与配送网络，实现货物的高效、低成本流通。",
+          "ja": "高効率でコスト効果の高い物流・流通ネットワークにより、商品の円滑な移動を実現します。",
+          "ru": "Обеспечьте эффективное и экономичное перемещение товаров благодаря надёжной логистической и распределительной сети."
+        }
+      },
+      {
+        "key": "excellence",
+        "title": {
+          "en": "Workforce &<br /> Education Ecosystem",
+          "ar": "منظومة القوى العاملة والتعليم",
+          "es": "Ecosistema de<br /> Talento y Educación",
+          "fr": "Écosystème de la<br /> Main-d’œuvre et de l’Éducation",
+          "de": "Ökosystem für<br /> Arbeitskräfte und Bildung",
+          "zh": "劳动力与<br />教育生态体系",
+          "ja": "人材・教育<br />エコシステム",
+          "ru": "Экосистема<br /> Кадров и Образования"
+        },
+        "img": "/invest-tab-06.jpg",
+        "desc": {
+          "en": "Language, skills and safety training programs ensure a multi-lingual workforce ready for global business.",
+          "ar": "تضمن برامج تنمية المهارات وتعلم اللغات توفير كوادر متعددة اللغات قادرة على العمل في بيئات دولية.",
+          "es": "Los programas de formación en idiomas, competencias y seguridad garantizan una fuerza laboral multilingüe preparada para el entorno empresarial global.",
+          "fr": "Des programmes de formation en langues, compétences et sécurité garantissent une main-d’œuvre multilingue prête à évoluer dans un environnement économique mondial.",
+          "de": "Programme zur Sprach-, Kompetenz- und Sicherheitsschulung gewährleisten eine mehrsprachige Belegschaft, die für globale Geschäftsanforderungen bestens vorbereitet ist.",
+          "zh": "通过语言、技能与安全培训项目，打造具备国际竞争力的多语言劳动力队伍。",
+          "ja": "語学、スキルおよび安全に関する研修プログラムにより、グローバルビジネスに対応できる多言語人材を育成します。",
+          "ru": "Программы обучения языкам, профессиональным навыкам и безопасности формируют многоязычную рабочую силу, готовую к ведению международного бизнеса."
+        }
+      }
+    ]
+  }
+}

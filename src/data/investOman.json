@@ -1,0 +1,612 @@
+{
+  "InvestHero": {
+    "title": {
+      "en": "Roles and Strategic Pillars",
+      "ar": "الدور والركائز الاستراتيجية",
+      "es": "Funciones y Pilares Estratégicos",
+      "fr": "Rôles et Piliers Stratégiques",
+      "de": "Rollen und Strategische Säulen",
+      "zh": "职责与战略支柱",
+      "ja": "役割と戦略的柱",
+      "ru": "Роли и стратегические направления"
+    },
+    "subtitle": {
+      "en": "your future investment",
+      "ar": "استثمارك المستقبلي",
+      "es": "tu inversión futura",
+      "fr": "votre investissement futur",
+      "de": "Ihre zukünftige Investition",
+      "zh": "您未来的投资",
+      "ja": "あなたの将来への投資",
+      "ru": "ваша будущая инвестиция"
+    }
+  },
+  "ReasonsInvest": {
+    "title": {
+      "en": "MANY REASONS TO <br /> INVEST IN OMAN",
+      "ar": "العديد من الأسباب <br /> للاستثمار في عُمان",
+      "es": "Muchas razones para <br /> invertir en Omán",
+      "fr": "De nombreuses raisons <br /> d’investir à Oman",
+      "de": "Viele Gründe, <br /> in Oman zu investieren",
+      "zh": "众多理由 <br /> 投资阿曼",
+      "ja": "オマーンに投資すべき <br /> 多くの理由",
+      "ru": "Множество причин <br /> инвестировать в Оман"
+    },
+    "subtitle": {
+      "en": "Oman’s business-friendly environment makes it easier than ever to start and grow your business.",
+      "ar": "تجعل بيئة الأعمال الداعمة في عُمان من السهل أكثر من أي وقت مضى بدء أعمالك وتنميتها.",
+      "es": "El entorno favorable para los negocios en Omán hace que iniciar y hacer crecer tu empresa sea más fácil que nunca.",
+      "fr": "L’environnement favorable aux entreprises d’Oman facilite plus que jamais la création et le développement de votre activité.",
+      "de": "Das unternehmensfreundliche Umfeld Omans macht es einfacher denn je, ein Unternehmen zu gründen und auszubauen.",
+      "zh": "阿曼友好的营商环境让您比以往任何时候都更容易创办和发展业务。",
+      "ja": "オマーンのビジネスに優しい環境により、これまで以上に容易に事業を立ち上げ、成長させることができます。",
+      "ru": "Благоприятная для бизнеса среда Омана делает открытие и развитие бизнеса проще, чем когда-либо."
+    },
+    "secondtitle": {
+      "en": "OPAZ INCENTIVES",
+      "ar": "حوافز أوباز",
+      "es": "Incentivos de OPAZ",
+      "fr": "Incitations d’OPAZ",
+      "de": "OPAZ-Anreize",
+      "zh": "OPAZ 激励措施",
+      "ja": "OPAZ インセンティブ",
+      "ru": "Стимулы OPAZ"
+    },
+    "incentives": {
+      "en": [
+        "Single approval for strategic projects",
+        "100% repatriation of capital and profits permitted",
+        "One-stop system for licenses and approvals",
+        "No minimum capital requirement",
+        "All currencies permitted",
+        "100% foreign ownership of projects",
+        "Eased residency procedures for investors and workforce",
+        "Investment under usufruct right system up to 50 years, renewable",
+        "Real estate development and sale under freehold ownership in economic zones",
+        "Exemption from customs duties for import and re-export",
+        "Income tax exemption for 10 years, extendable for two similar periods"
+      ],
+
+      "ar": [
+        "الموافقة الموحدة للمشاريع الاستراتيجية",
+        "السماح بإعادة تحويل رأس المال والأرباح بنسبة 100%",
+        "نظام المحطة الواحدة للحصول على التراخيص والموافقات",
+        "عدم وجود حد أدنى لرأس المال",
+        "السماح بالتعامل بجميع العملات",
+        "الملكية الأجنبية الكاملة للمشاريع بنسبة 100%",
+        "تسهيلات في إجراءات الإقامة للمستثمرين والقوى العاملة",
+        "الاستثمار بنظام حق الانتفاع لمدة تصل إلى 50 سنة قابلة للتجديد",
+        "تطوير وبيع الوحدات العقارية بنظام التملك الحر في المناطق الاقتصادية",
+        "الإعفاء من الرسوم الجمركية للاستيراد وإعادة التصدير",
+        "الإعفاء من ضريبة الدخل لمدة 10 سنوات قابلة للتمديد لفترتين مماثلتين"
+      ],
+
+      "es": [
+        "Aprobación única para proyectos estratégicos",
+        "Repatriación del 100% del capital y las ganancias permitida",
+        "Sistema de ventanilla única para licencias y aprobaciones",
+        "Sin requisito de capital mínimo",
+        "Se permiten todas las divisas",
+        "Propiedad extranjera del 100% de los proyectos",
+        "Procesos de residencia simplificados para inversores y fuerza laboral",
+        "Inversión bajo el sistema de derecho de usufructo por hasta 50 años, renovable",
+        "Desarrollo y venta de bienes raíces bajo propiedad plena en zonas económicas",
+        "Exención de aranceles aduaneros para importación y reexportación",
+        "Exención del impuesto sobre la renta por 10 años, ampliable por dos períodos similares"
+      ],
+
+      "fr": [
+        "Autorisation unique pour les projets stratégiques",
+        "Rapatriement à 100 % du capital et des bénéfices autorisé",
+        "Guichet unique pour les licences et autorisations",
+        "Aucune exigence de capital minimum",
+        "Toutes les devises sont autorisées",
+        "Propriété étrangère à 100 % des projets",
+        "Procédures de résidence facilitées pour les investisseurs et la main-d’œuvre",
+        "Investissement sous le régime du droit d’usufruit jusqu’à 50 ans, renouvelable",
+        "Développement et vente immobilière en pleine propriété dans les zones économiques",
+        "Exonération des droits de douane à l’importation et à la réexportation",
+        "Exonération de l’impôt sur le revenu pendant 10 ans, prolongeable pour deux périodes similaires"
+      ],
+
+      "de": [
+        "Einheitliche Genehmigung für strategische Projekte",
+        "100 % Rückführung von Kapital und Gewinnen erlaubt",
+        "One-Stop-Shop-System für Lizenzen und Genehmigungen",
+        "Keine Mindestkapitalanforderung",
+        "Alle Währungen erlaubt",
+        "100 % ausländisches Eigentum an Projekten",
+        "Vereinfachte Aufenthaltsverfahren für Investoren und Arbeitskräfte",
+        "Investitionen im Rahmen des Nießbrauchsystems bis zu 50 Jahre, verlängerbar",
+        "Immobilienentwicklung und -verkauf in vollem Eigentum in Wirtschaftszonen",
+        "Befreiung von Zöllen für Import und Reexport",
+        "Befreiung von der Einkommensteuer für 10 Jahre, verlängerbar um zwei weitere Zeiträume"
+      ],
+
+      "zh": [
+        "战略项目可获得统一审批",
+        "允许100%资本和利润汇回",
+        "一站式许可和审批体系",
+        "无最低资本要求",
+        "允许使用所有货币",
+        "项目可实现100%外资所有权",
+        "为投资者和劳动力提供便利的居留程序",
+        "在经济区内可通过用益权制度投资，期限最长50年并可续期",
+        "在经济区内进行房地产开发及自由持有产权销售",
+        "进出口及再出口免征关税",
+        "所得税免征10年，可延长两个相同期限"
+      ],
+
+      "ja": [
+        "戦略的プロジェクトに対する単一承認制度",
+        "資本および利益の100％送金が可能",
+        "許認可のためのワンストップシステム",
+        "最低資本金要件なし",
+        "すべての通貨の使用が可能",
+        "プロジェクトの100％外国資本所有が可能",
+        "投資家および労働力向けの居住手続きの簡素化",
+        "最大50年まで更新可能な用益権制度による投資",
+        "経済特区における完全所有権による不動産開発および販売",
+        "輸入および再輸出に対する関税免除",
+        "所得税が10年間免除され、同条件で2回延長可能"
+      ],
+
+      "ru": [
+        "Единое одобрение для стратегических проектов",
+        "Разрешена 100% репатриация капитала и прибыли",
+        "Система «единого окна» для лицензий и разрешений",
+        "Отсутствие минимального требования к капиталу",
+        "Разрешены все валюты",
+        "100% иностранная собственность на проекты",
+        "Упрощённые процедуры получения резидентства для инвесторов и персонала",
+        "Инвестиции по системе права пользования сроком до 50 лет с возможностью продления",
+        "Развитие и продажа недвижимости на правах полной собственности в экономических зонах",
+        "Освобождение от таможенных пошлин при импорте и реэкспорте",
+        "Освобождение от налога на прибыль на 10 лет с возможностью продления на два аналогичных периода"
+      ]
+    },
+    "slideDataOne": {
+      "en": "<strong>Easy connectivity</strong> of free zones to local, regional, and global markets through airports, seaports, and road networks.",
+      "ar": "<strong>سهولة الربط</strong> بين المناطق الحرة والأسواق المحلية والإقليمية والعالمية عبر المطارات والموانئ البحرية وشبكات الطرق.",
+      "es": "<strong>Conectividad sencilla</strong> de las zonas francas con los mercados locales, regionales y globales a través de aeropuertos, puertos marítimos y redes viales.",
+      "fr": "<strong>Connectivité facilitée</strong> des zones franches avec les marchés locaux, régionaux et mondiaux grâce aux aéroports, ports maritimes et réseaux routiers.",
+      "de": "<strong>Einfache Anbindung</strong> der Freizonen an lokale, regionale und globale Märkte über Flughäfen, Seehäfen und Straßennetze.",
+      "zh": "<strong>便捷互联</strong>：通过机场、海港和公路网络，将自由区连接至本地、区域及全球市场。",
+      "ja": "<strong>高い接続性</strong>により、空港・港湾・道路網を通じて自由区域を国内・地域・世界市場と結びます。",
+      "ru": "<strong>Удобная связность</strong> свободных зон с местными, региональными и глобальными рынками через аэропорты, морские порты и дорожные сети."
+    },
+    "slideDataTwo": {
+      "en": "<strong>Various investment spaces</strong> available in different sizes, supervised by the Authority.",
+      "ar": "<strong>مساحات استثمارية متنوعة</strong> بأحجام مختلفة، تخضع لإشراف الهيئة.",
+      "es": "<strong>Diversos espacios de inversión</strong> disponibles en diferentes tamaños, bajo la supervisión de la Autoridad.",
+      "fr": "<strong>Différents espaces d’investissement</strong> disponibles en plusieurs tailles, sous la supervision de l’Autorité.",
+      "de": "<strong>Vielfältige Investitionsflächen</strong> in unterschiedlichen Größen, die von der Behörde beaufsichtigt werden.",
+      "zh": "<strong>多样化的投资空间</strong>，提供不同规模，并由相关机构监管。",
+      "ja": "<strong>多様な投資スペース</strong>をさまざまな規模で提供し、当局の監督下で運営されています。",
+      "ru": "<strong>Разнообразные инвестиционные пространства</strong> различных размеров, находящиеся под надзором ведомства."
+    },
+    "slideDataThree": {
+      "en": "<strong>Issuance of necessary permits</strong> for the residency of foreign workforce through efficient and quick procedures.<ul><li>Flexible localization rates.</li><li>Exemption from the minimum capital requirement.</li></ul>",
+
+      "ar": "إصدار التصاريح اللازمة لإقامة القوى العاملة الأجنبية من خلال إجراءات سريعة وفعّالة.<ul><li>مرونة في نسب التعمين.</li><li>الإعفاء من شرط الحد الأدنى لرأس المال.</li></ul>",
+
+      "es": "Emisión de los permisos necesarios para la residencia de la fuerza laboral extranjera mediante procedimientos eficientes y rápidos.<ul><li>Flexibilidad en las tasas de localización.</li><li>Exención del requisito de capital mínimo.</li></ul>",
+
+      "fr": "Délivrance des permis nécessaires à la résidence de la main-d’œuvre étrangère grâce à des procédures efficaces et rapides.<ul><li>Flexibilité des taux de localisation.</li><li>Exonération de l’exigence de capital minimum.</li></ul>",
+
+      "de": "Erteilung der erforderlichen Genehmigungen für den Aufenthalt ausländischer Arbeitskräfte durch effiziente und schnelle Verfahren.<ul><li>Flexible Lokalisierungsquoten.</li><li>Befreiung von der Mindestkapitalanforderung.</li></ul>",
+
+      "zh": "通过高效、快速的程序，为外籍劳动力发放必要的居留许可。<ul><li>灵活的本地化比例。</li><li>免除最低资本要求。</li></ul>",
+
+      "ja": "効率的かつ迅速な手続きにより、外国人労働力の居住に必要な許可を発行します。<ul><li>柔軟な現地化率。</li><li>最低資本金要件の免除。</li></ul>",
+
+      "ru": "Выдача необходимых разрешений на проживание иностранной рабочей силы с помощью эффективных и быстрых процедур.<ul><li>Гибкие показатели локализации.</li><li>Освобождение от требования минимального капитала.</li></ul>"
+    },
+
+    "slideDataFour": {
+      "en": "<strong>Diverse investment fields</strong> available, including industrial, commercial, tourism, real estate development, logistics, renewable energy and more. Services are provided to investors through a one-stop shop with procedures characterized by efficiency, speed, and transparency.",
+      "ar": "<strong>مجالات استثمارية متنوعة</strong> تشمل القطاعات الصناعية والتجارية والسياحية وتطوير العقارات والخدمات اللوجستية والطاقة المتجددة وغيرها. كما تُقدَّم الخدمات للمستثمرين عبر نظام المحطة الواحدة بإجراءات تتسم بالكفاءة والسرعة والشفافية.",
+      "es": "<strong>Diversos campos de inversión</strong> disponibles, incluidos los sectores industrial, comercial, turístico, desarrollo inmobiliario, logística, energía renovable y otros. Los servicios se ofrecen a los inversores a través de una ventanilla única con procedimientos caracterizados por eficiencia, rapidez y transparencia.",
+      "fr": "<strong>Des domaines d’investissement variés</strong> sont disponibles, notamment dans les secteurs industriel, commercial, touristique, du développement immobilier, de la logistique et des énergies renouvelables. Les services aux investisseurs sont fournis via un guichet unique avec des procédures marquées par l’efficacité, la rapidité et la transparence.",
+      "de": "<strong>Vielfältige Investitionsbereiche</strong> stehen zur Verfügung, darunter Industrie, Handel, Tourismus, Immobilienentwicklung, Logistik, erneuerbare Energien und weitere. Dienstleistungen für Investoren werden über ein One-Stop-Shop-System mit effizienten, schnellen und transparenten Verfahren bereitgestellt.",
+      "zh": "<strong>多元化的投资领域</strong>，涵盖工业、商业、旅游、房地产开发、物流、可再生能源等多个行业。通过一站式服务平台向投资者提供高效、快速且透明的服务流程。",
+      "ja": "<strong>多様な投資分野</strong>として、産業、商業、観光、不動産開発、物流、再生可能エネルギーなどが用意されています。投資家向けサービスは、効率性・迅速性・透明性を重視したワンストップサービスを通じて提供されます。",
+      "ru": "<strong>Разнообразные инвестиционные направления</strong>, включая промышленность, коммерцию, туризм, развитие недвижимости, логистику, возобновляемую энергетику и другие отрасли. Услуги для инвесторов предоставляются через систему «единого окна», отличающуюся эффективностью, оперативностью и прозрачностью."
+    }
+  },
+  "successStory": {
+    "title": {
+      "en": "SUCCESS STORIES",
+      "ar": "قصص النجاح",
+      "es": "Casos de éxito",
+      "fr": "Histoires de réussite",
+      "de": "Erfolgsgeschichten",
+      "zh": "成功案例",
+      "ja": "成功事例",
+      "ru": "Истории успеха"
+    },
+    "subtitle": {
+      "en": "Discover why more and more companies are choosing to grow their business in Oman.",
+      "ar": "اكتشف لماذا تختار المزيد من الشركات توسيع أعمالها وتنميتها في سلطنة عُمان.",
+      "es": "Descubra por qué cada vez más empresas eligen hacer crecer sus negocios en Omán.",
+      "fr": "Découvrez pourquoi de plus en plus d’entreprises choisissent de développer leurs activités à Oman.",
+      "de": "Entdecken Sie, warum sich immer mehr Unternehmen dafür entscheiden, ihr Geschäft in Oman auszubauen.",
+      "zh": "了解为什么越来越多的企业选择在阿曼发展和壮大业务。",
+      "ja": "なぜ多くの企業がオマーンで事業成長を選んでいるのかをご覧ください。",
+      "ru": "Узнайте, почему всё больше компаний выбирают развитие своего бизнеса в Омане."
+    },
+    "cta": {
+      "en": "Watch here",
+      "ar": "شاهد هنا",
+      "es": "Ver aquí",
+      "fr": "Regarder ici",
+      "de": "Hier ansehen",
+      "zh": "点击观看",
+      "ja": "こちらで視聴",
+      "ru": "Смотреть здесь"
+    },
+
+    "stories": [
+      {
+        "title": {
+          "en": "Alpha Marble",
+          "ar": "ألفا للرخام",
+          "es": "Alpha Marble",
+          "fr": "Alpha Marble",
+          "de": "Alpha Marble",
+          "zh": "阿尔法大理石",
+          "ja": "アルファ・マーブル",
+          "ru": "Alpha Marble"
+        },
+        "desc": {
+          "en": "Why did Alpha Marble find the process of doing business as smooth as their marble?",
+          "ar": "كيف صنعت ألفا للرخام تجربة أعمال سلسة في سلطنة عُمان؟",
+          "es": "¿Por qué Alpha Marble encontró que el proceso empresarial era tan fluido como su mármol?",
+          "fr": "Pourquoi Alpha Marble a-t-elle trouvé que faire des affaires était aussi fluide que son marbre ?",
+          "de": "Warum empfand Alpha Marble den Geschäftsprozess als ebenso reibungslos wie seinen Marmor?",
+          "zh": "为什么 Alpha Marble 认为在阿曼开展业务像他们的大理石一样顺畅？",
+          "ja": "なぜ Alpha Marble はビジネスプロセスが自社の大理石のようにスムーズだと感じたのでしょうか？",
+          "ru": "Почему Alpha Marble считает, что вести бизнес в Омане так же гладко, как их мрамор?"
+        },
+        "link": "https://youtu.be/KIaZqgrNFBg?si=O2DA2fVu2bd94kTQ"
+      },
+
+      {
+        "title": {
+          "en": "Changbao Oman",
+          "ar": "تشانغباو عُمان",
+          "es": "Changbao Omán",
+          "fr": "Changbao Oman",
+          "de": "Changbao Oman",
+          "zh": "常宝阿曼",
+          "ja": "チャンバオ・オマーン",
+          "ru": "Changbao Oman"
+        },
+        "desc": {
+          "en": "How is Changbao Oman extracting value from its Sohar factory?",
+          "ar": "كيف حوّلت تشانغباو عُمان مصنعها في صُحار إلى قيمة حقيقية؟",
+          "es": "¿Cómo está Changbao Omán generando valor desde su fábrica en Sohar?",
+          "fr": "Comment Changbao Oman extrait-elle de la valeur de son usine de Sohar ?",
+          "de": "Wie gewinnt Changbao Oman Mehrwert aus seiner Fabrik in Sohar?",
+          "zh": "Changbao Oman 如何从其苏哈尔工厂中创造价值？",
+          "ja": "Changbao Oman はソハール工場からどのように価値を生み出していますか？",
+          "ru": "Как Changbao Oman извлекает ценность из своего завода в Сохаре?"
+        },
+        "link": "https://youtu.be/VYFUaujuBd8?si=glDQQKpQ2yrM_suf"
+      },
+      {
+        "title": {
+          "en": "First Gulf",
+          "ar": "شركة الخليج الأول للتجارة",
+          "es": "First Gulf",
+          "fr": "First Gulf",
+          "de": "First Gulf",
+          "zh": "第一海湾公司",
+          "ja": "ファースト・ガルフ",
+          "ru": "First Gulf"
+        },
+        "desc": {
+          "en": "What sweetened the move to Salalah free zone for a cake and chocolate business?",
+          "ar": "ما الذي جعل الانتقال إلى المنطقة الحرة بصلالة خيارًا ناجحًا لأعمال الكعك والشوكولاتة؟",
+          "es": "¿Qué hizo más atractivo el traslado a la zona franca de Salalah para un negocio de pasteles y chocolates?",
+          "fr": "Qu’est-ce qui a rendu le passage à la zone franche de Salalah si attractif pour une entreprise de gâteaux et de chocolat ?",
+          "de": "Was machte den Umzug in die Freihandelszone Salalah für ein Kuchen- und Schokoladenunternehmen besonders attraktiv?",
+          "zh": "是什么促使一家蛋糕和巧克力企业选择迁入塞拉莱自由区？",
+          "ja": "ケーキとチョコレート事業にとって、サラーラ・フリーゾーンへの移転を後押しした要因とは？",
+          "ru": "Что сделало переезд в свободную зону Салалы привлекательным для бизнеса по производству тортов и шоколада?"
+        },
+        "link": "https://youtu.be/IrDMFu_PyUU?si=RO21LyW3higAEWiU"
+      },
+      {
+        "title": {
+          "en": "FLAG",
+          "ar": "فلاج للخدمات اللوجستية",
+          "es": "FLAG",
+          "fr": "FLAG",
+          "de": "FLAG",
+          "zh": "FLAG 物流公司",
+          "ja": "FLAG ロジスティクス",
+          "ru": "FLAG"
+        },
+        "desc": {
+          "en": "Why is Khazaen the solution for FLAG’s logistics operations?",
+          "ar": "لماذا تُعد منطقة خزائن الاقتصادية الحل الأمثل لعمليات شركة فلاج للخدمات اللوجستية؟",
+          "es": "¿Por qué Khazaen es la solución ideal para las operaciones logísticas de FLAG?",
+          "fr": "Pourquoi Khazaen est-elle la solution idéale pour les opérations logistiques de FLAG ?",
+          "de": "Warum ist Khazaen die ideale Lösung für die Logistikaktivitäten von FLAG?",
+          "zh": "为什么卡扎因经济城成为 FLAG 物流运营的理想解决方案？",
+          "ja": "なぜカザエンは FLAG の物流事業にとって最適なソリューションなのでしょうか？",
+          "ru": "Почему Хазаен является оптимальным решением для логистических операций FLAG?"
+        },
+        "link": "https://youtu.be/7IyYUnqGBEs?si=PQcD7D7LKlsNj5kc"
+      },
+      {
+        "title": {
+          "en": "METS Duqm",
+          "ar": "شركة ميتس الدقم",
+          "es": "METS Duqm",
+          "fr": "METS Duqm",
+          "de": "METS Duqm",
+          "zh": "METS 杜库姆",
+          "ja": "METS ドゥクム",
+          "ru": "METS Duqm"
+        },
+        "desc": {
+          "en": "What did Duqm provide to support METS’ oil and gas operations?",
+          "ar": "ما الذي وفرته الدقم لدعم عمليات شركة ميتس في قطاع النفط والغاز؟",
+          "es": "¿Qué proporcionó Duqm para apoyar las operaciones de METS en el sector del petróleo y el gas?",
+          "fr": "Qu’a fourni Duqm pour soutenir les activités de METS dans le secteur pétrolier et gazier ?",
+          "de": "Was hat Duqm bereitgestellt, um die Öl- und Gasaktivitäten von METS zu unterstützen?",
+          "zh": "杜库姆为支持 METS 在石油和天然气领域的运营提供了哪些条件？",
+          "ja": "ドゥクムは、METS の石油・ガス事業を支援するために何を提供したのでしょうか？",
+          "ru": "Что предоставил Дукм для поддержки деятельности METS в нефтегазовом секторе?"
+        },
+        "link": "https://www.youtube.com/watch?v=bDH3sHqyqEs"
+      },
+      {
+        "title": {
+          "en": "WAKUD",
+          "ar": "شركة وقود",
+          "es": "WAKUD",
+          "fr": "WAKUD",
+          "de": "WAKUD",
+          "zh": "WAKUD 公司",
+          "ja": "WAKUD",
+          "ru": "WAKUD"
+        },
+        "desc": {
+          "en": "How is WAKUD recycling used cooking oil into a successful and sustainable business?",
+          "ar": "كيف تمكنت شركة وقود من تحويل زيوت الطهي المستعملة إلى مشروع ناجح ومستدام؟",
+          "es": "¿Cómo convierte WAKUD el aceite de cocina usado en un negocio exitoso y sostenible?",
+          "fr": "Comment WAKUD transforme-t-elle l’huile de cuisson usagée en une activité rentable et durable ?",
+          "de": "Wie verwandelt WAKUD gebrauchtes Speiseöl in ein erfolgreiches und nachhaltiges Geschäftsmodell?",
+          "zh": "WAKUD 如何将废弃食用油转化为成功且可持续的业务？",
+          "ja": "WAKUD は使用済み食用油をどのようにして成功かつ持続可能なビジネスへと変えているのでしょうか？",
+          "ru": "Как WAKUD превращает использованное кулинарное масло в успешный и устойчивый бизнес?"
+        },
+        "link": "https://www.youtube.com/watch?v=YXCt747KK5w"
+      }
+    ]
+  },
+  "Process": {
+    "title": {
+      "en": "Investor Resources",
+      "ar": "موارد المستثمرين",
+      "es": "Recursos para Inversores",
+      "fr": "Ressources pour les investisseurs",
+      "de": "Ressourcen für Investoren",
+      "zh": "投资者资源",
+      "ja": "投資家向けリソース",
+      "ru": "Ресурсы для инвесторов"
+    },
+    "subtitle": {
+      "en": "Access key documents to help plan your investment.",
+      "ar": "اطّلع على المستندات الرئيسية التي تساعدك في التخطيط لاستثمارك.",
+      "es": "Acceda a documentos clave que le ayudarán a planificar su inversión.",
+      "fr": "Accédez aux documents clés pour vous aider à planifier votre investissement.",
+      "de": "Greifen Sie auf wichtige Dokumente zu, die Sie bei der Planung Ihrer Investition unterstützen.",
+      "zh": "获取关键文件，助您规划投资。",
+      "ja": "投資計画に役立つ重要な資料にアクセスできます。",
+      "ru": "Получите доступ к ключевым документам для планирования ваших инвестиций."
+    },
+    "cta": {
+      "en": "Explore More",
+      "ar": "استكشف المزيد",
+      "es": "Explorar más",
+      "fr": "Explorer davantage",
+      "de": "Mehr entdecken",
+      "zh": "了解更多",
+      "ja": "詳細を見る",
+      "ru": "Узнать больше"
+    },
+
+    "items": [
+      {
+        "title": {
+          "en": "Investor Journey Guide",
+          "ar": "دليل رحلة المستثمر",
+          "es": "Guía del recorrido del inversor",
+          "fr": "Guide du parcours de l’investisseur",
+          "de": "Leitfaden für Investoren",
+          "zh": "投资者指南",
+          "ja": "投資家向けガイド",
+          "ru": "Путеводитель инвестора"
+        },
+        "description": {
+          "en": "A quick step-by-step guide outlining how to invest and establish your business in OPAZ zones, from application to operation.",
+          "ar": "دليل مبسط يوضح خطوات الاستثمار وتأسيس الأعمال في مناطق أوباز من التقديم حتى التشغيل.",
+          "es": "Guía paso a paso para invertir y establecer tu negocio en zonas OPAZ.",
+          "fr": "Guide étape par étape pour investir et créer votre entreprise dans les zones OPAZ.",
+          "de": "Schritt-für-Schritt-Anleitung zur Investition und Unternehmensgründung in OPAZ-Zonen.",
+          "zh": "逐步指南，帮助您在 OPAZ 区域投资并建立业务。",
+          "ja": "OPAZ ゾーンでの投資・事業設立の手順を解説したガイド。",
+          "ru": "Пошаговое руководство по инвестициям и созданию бизнеса в зонах OPAZ."
+        },
+        "img": "/icon-pdf.png",
+        "link": "/pdf/Investors Guide.pdf"
+      },
+
+      {
+        "title": {
+          "en": "Investing in Our Zones: Key Insights & Opportunities",
+          "ar": "دليل الاستثمار والفرص الواعدة في مناطقنا",
+          "es": "Invertir en nuestras zonas: oportunidades clave",
+          "fr": "Investir dans nos zones : opportunités clés",
+          "de": "Investieren in unseren Zonen: Chancen & Einblicke",
+          "zh": "投资我们的区域：关键机遇",
+          "ja": "当局ゾーンへの投資：主要な機会",
+          "ru": "Инвестиции в наши зоны: ключевые возможности"
+        },
+        "description": {
+          "en": "A concise overview of investment incentives, strategic locations, and high-potential opportunities.",
+          "ar": "نظرة شاملة على الحوافز الاستثمارية والمواقع الاستراتيجية والفرص عالية الإمكانات.",
+          "es": "Resumen de incentivos, ubicaciones estratégicas y oportunidades de alto potencial.",
+          "fr": "Aperçu des incitations, des emplacements stratégiques et des opportunités à fort potentiel.",
+          "de": "Überblick über Anreize, strategische Standorte und Chancen mit hohem Potenzial.",
+          "zh": "概览投资激励、战略位置和高潜力机遇。",
+          "ja": "投資インセンティブや戦略的立地を紹介。",
+          "ru": "Обзор инвестиционных стимулов и перспективных возможностей."
+        },
+        "img": "/icon-pdf.png",
+        "link": "/pdf/Investment Zones Guide_ Incentives &Opportunities.pdf"
+      },
+
+      {
+        "title": {
+          "en": "Guide to Environmental and Social Impact Assessment",
+          "ar": "دليل تقييم الأثر البيئي والاجتماعي",
+          "es": "Guía de evaluación de impacto ambiental y social",
+          "fr": "Guide d’évaluation de l’impact environnemental et social",
+          "de": "Leitfaden zur Umwelt- und Sozialverträglichkeitsprüfung",
+          "zh": "环境与社会影响评估指南",
+          "ja": "環境・社会影響評価ガイド",
+          "ru": "Руководство по экологической и социальной оценке"
+        },
+        "description": {
+          "en": "A practical guide to managing environmental and social impacts for sustainable development.",
+          "ar": "دليل عملي لإدارة الآثار البيئية والاجتماعية دعمًا للتنمية المستدامة.",
+          "es": "Guía práctica para gestionar impactos ambientales y sociales.",
+          "fr": "Guide pratique pour gérer les impacts environnementaux et sociaux.",
+          "de": "Praxisleitfaden zur Steuerung ökologischer und sozialer Auswirkungen.",
+          "zh": "支持可持续发展的实用指南。",
+          "ja": "持続可能な開発のための実践的ガイド。",
+          "ru": "Практическое руководство по устойчивому развитию."
+        },
+        "img": "/icon-pdf.png",
+        "link": "/pdf/Guide to Environmental and Social Impact Assessment- OPAZ.pdf"
+      }
+    ]
+  },
+  "Help": {
+    "title": {
+      "en": "We’re Here to Help",
+      "ar": "نحن هنا للمساعدة",
+      "es": "Estamos aquí para ayudarle",
+      "fr": "Nous sommes là pour vous aider",
+      "de": "Wir sind für Sie da",
+      "zh": "我们随时为您提供帮助",
+      "ja": "私たちは皆さまをサポートします",
+      "ru": "Мы здесь, чтобы помочь"
+    },
+    "subtitle": {
+      "en": "Our Investor Relations team is ready to answer your questions and guide your journey.",
+      "ar": "فريق علاقات المستثمرين لدينا مستعد للإجابة على استفساراتكم ومرافقتكم في رحلتكم الاستثمارية.",
+      "es": "Nuestro equipo de Relaciones con Inversores está listo para responder a sus preguntas y acompañarle en su proceso.",
+      "fr": "Notre équipe Relations Investisseurs est prête à répondre à vos questions et à vous accompagner tout au long de votre parcours.",
+      "de": "Unser Investor-Relations-Team steht bereit, um Ihre Fragen zu beantworten und Sie auf Ihrem Weg zu begleiten.",
+      "zh": "我们的投资者关系团队随时准备解答您的问题，并为您的投资之旅提供指导。",
+      "ja": "投資家向けリレーションズチームが、ご質問への対応や投資の道のりをサポートします。",
+      "ru": "Наша команда по связям с инвесторами готова ответить на ваши вопросы и сопровождать вас на вашем инвестиционном пути."
+    },
+    "formName": {
+      "en": "Name",
+      "ar": "الاسم",
+      "es": "Nombre",
+      "fr": "Nom",
+      "de": "Name",
+      "zh": "姓名",
+      "ja": "氏名",
+      "ru": "Имя"
+    },
+    "formEmail": {
+      "en": "Email",
+      "ar": "البريد الإلكتروني",
+      "es": "Correo electrónico",
+      "fr": "Adresse e-mail",
+      "de": "E-Mail",
+      "zh": "电子邮箱",
+      "ja": "メールアドレス",
+      "ru": "Электронная почта"
+    },
+    "formCompany": {
+      "en": "Company",
+      "ar": "الشركة",
+      "es": "Empresa",
+      "fr": "Entreprise",
+      "de": "Unternehmen",
+      "zh": "公司",
+      "ja": "会社名",
+      "ru": "Компания"
+    },
+    "formMessage": {
+      "en": "Type your message here",
+      "ar": "اكتب رسالتك هنا",
+      "es": "Escriba su mensaje aquí",
+      "fr": "Écrivez votre message ici",
+      "de": "Geben Sie hier Ihre Nachricht ein",
+      "zh": "在此输入您的留言",
+      "ja": "こちらにメッセージを入力してください",
+      "ru": "Введите ваше сообщение здесь"
+    },
+    "cta": {
+      "en": "Submit",
+      "ar": "إرسال",
+      "es": "إرسال",
+      "fr": "Soumettre",
+      "de": "Absenden",
+      "zh": "提交",
+      "ja": "送信",
+      "ru": "Отправить"
+    },
+    "title2": {
+      "en": "Direct Contact Info",
+      "ar": "معلومات التواصل المباشر",
+      "es": "Información de contacto directo",
+      "fr": "Informations de contact direct",
+      "de": "Direkte Kontaktinformationen",
+      "zh": "直接联系方式",
+      "ja": "直接連絡先情報",
+      "ru": "Прямая контактная информация"
+    },
+    "callcenter": {
+      "en": "Call Center Email",
+      "ar": "البريد الإلكتروني لمركز الاتصال",
+      "es": "Correo electrónico del centro de atención",
+      "fr": "E-mail du centre d’appels",
+      "de": "E-Mail des Callcenters",
+      "zh": "呼叫中心电子邮箱",
+      "ja": "コールセンターのメールアドレス",
+      "ru": "Электронная почта колл-центра"
+    },
+    "hotline": {
+      "en": "Local Call",
+      "ar": "مكالمة محلية",
+      "es": "Llamada local",
+      "fr": "Appel local",
+      "de": "Lokaler Anruf",
+      "zh": "本地电话",
+      "ja": "国内通話",
+      "ru": "Местный звонок"
+    },
+    "IntCallNo": {
+      "en": "International Call",
+      "ar": "مكالمة دولية",
+      "es": "Llamada internacional",
+      "fr": "Appel international",
+      "de": "Internationaler Anruf",
+      "zh": "国际电话",
+      "ja": "国際通話",
+      "ru": "Международный звонок"
+    }
+  }
+}

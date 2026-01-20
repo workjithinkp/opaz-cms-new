@@ -1,0 +1,28 @@
+import { NextResponse } from 'next/server';
+import { API_BASE_URL } from '@/lib/api';
+
+export async function GET() {
+  try {
+    const response = await fetch(`${API_BASE_URL}/locales`, {
+      headers: {
+        'Accept': 'application/json',
+      },
+    });
+
+    if (!response.ok) {
+      return NextResponse.json(
+        { error: 'Failed to fetch locales' },
+        { status: response.status }
+      );
+    }
+
+    const data = await response.json();
+    return NextResponse.json(data);
+  } catch (error) {
+    console.error('Error proxying locales:', error);
+    return NextResponse.json(
+      { error: 'Internal server error' },
+      { status: 500 }
+    );
+  }
+}
