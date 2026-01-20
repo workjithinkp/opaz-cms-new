@@ -27,6 +27,14 @@ const notoKufi = Noto_Kufi_Arabic({
 function BodyWrapper({ children }: { children: React.ReactNode }) {
   const { lang } = useLang();
 
+  // Update HTML element attributes for language and direction
+  useEffect(() => {
+    const htmlElement = document.documentElement;
+    const isRTL = lang === "ar";
+    htmlElement.lang = lang;
+    htmlElement.dir = isRTL ? "rtl" : "ltr";
+  }, [lang]);
+
   return (
     <div className={lang === "ar" ? "font-arabic" : "font-english"}>
       <PageLoader />
@@ -46,7 +54,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   }, []);
 
   return (
-    <html lang="en" className={`${montserrat.variable} ${notoKufi.variable}`}>
+    <html lang="en" dir="ltr" className={`${montserrat.variable} ${notoKufi.variable}`}>
       <body className="antialiased bg-blue-300/50" suppressHydrationWarning>
         <LangProvider>
 
