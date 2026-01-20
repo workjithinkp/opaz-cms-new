@@ -116,14 +116,10 @@ export default function WhyOmanInvestment({ section, lang }: WhyOmanInvestmentPr
               <button
                 key={item.id}
                 onClick={() => setActive(item.id)}
-                className={`rounded-xl p-4 transition text-left ${
-                  active === item.id
-                    ? 'bg-[#b0ddfc] text-black'
-                    : 'bg-[#f1ebe4] text-black'
-                }`}>
-                <div className="text-sm lg:text-base font-medium">
+                className="rounded-xl p-4 transition bg-[#b0ddfc] text-black">
+              
                   {formatTitle(item.c_1 || '')}
-                </div>
+              
               </button>
             ))}
           </div>
@@ -138,7 +134,7 @@ export default function WhyOmanInvestment({ section, lang }: WhyOmanInvestmentPr
                 />
               )}
               <div 
-                className="text-sm lg:text-base leading-relaxed"
+              
                 dangerouslySetInnerHTML={{ __html: activeItem?.c_2 || '' }}
               />
             </div>
