@@ -213,7 +213,7 @@ export default function HomeGateway({ section, lang }: HomeGatewayProps) {
     <section
       ref={containerRef}
       className="relative flex flex-col justify-center overflow-hidden pt-14 pb-10 lg:min-h-screen lg:pt-36 lg:pb-24">
-      <div className="absolute inset-0 z-10 bg-black/50"></div>
+      <div className="absolute inset-0 z-10 bg-black/15"></div>
 
       <div ref={imgRef} className="absolute inset-0 overflow-hidden">
         <Image
