@@ -157,7 +157,7 @@ export default function HomeGateway({ section, lang }: HomeGatewayProps) {
   if (device === 'mobile') {
     return (
       <section className="relative py-15 px-6">
-        <div className="absolute inset-0 z-10 bg-black/50"></div>
+        <div className="absolute inset-0 z-10 bg-black/15"></div>
 
         <div className="absolute inset-0">
           <Image
