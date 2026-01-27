@@ -84,7 +84,7 @@ export default function HomeNewsletter({ section, lang }: HomeNewsletterProps) {
           height={510}
           unoptimized
           priority
-          unoptimized
+  
         />
       </div>
 
