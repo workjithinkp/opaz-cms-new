@@ -79,6 +79,7 @@ export default function HomeFeatures({ section, lang }: HomeFeaturesProps) {
               alt="Features"
               fill
               priority
+              unoptimized
               className="object-cover"
             />
           )}

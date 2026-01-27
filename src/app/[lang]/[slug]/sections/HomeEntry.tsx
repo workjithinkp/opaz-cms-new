@@ -145,6 +145,7 @@ export default function HomeEntry({ section, lang }: HomeEntryProps) {
               alt="Entry"
               fill
               priority
+              unoptimized
               className="object-cover"
             />
           )}

@@ -116,6 +116,7 @@ export default function HomeFreedom({ section, lang }: HomeFreedomProps) {
               alt="Freedom"
               fill
               priority
+              unoptimized
               className="object-cover"
             />
           )}

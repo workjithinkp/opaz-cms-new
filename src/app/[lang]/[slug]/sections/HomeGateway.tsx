@@ -165,6 +165,7 @@ export default function HomeGateway({ section, lang }: HomeGatewayProps) {
             alt="Background"
             fill
             priority
+            unoptimized
             className="object-cover"
           />
         </div>
