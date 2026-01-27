@@ -82,6 +82,7 @@ export default function HomeNewsletter({ section, lang }: HomeNewsletterProps) {
           alt="Zoom"
           width={377}
           height={510}
+          unoptimized
           priority
           unoptimized
         />

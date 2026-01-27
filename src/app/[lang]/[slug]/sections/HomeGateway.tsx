@@ -221,6 +221,7 @@ export default function HomeGateway({ section, lang }: HomeGatewayProps) {
           alt="Zoom"
           fill
           priority
+          unoptimized
           className="object-cover"
         />
       </div>
