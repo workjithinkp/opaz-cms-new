@@ -156,8 +156,11 @@ function ZoneContent({ zone, lang }: { zone: any; lang: string }) {
       <div className="relative z-30 container mx-auto">
         <div className="mb-12">
           <h2
-            className={`mb-4 text-3xl font-normal text-[#b0ddfc] uppercase text-shadow-2xs lg:mb-8 lg:text-6xl 2xl:text-7xl ${isEn ? 'origin-left' : 'origin-right text-right'}`}
-            dangerouslySetInnerHTML={{ __html: zone.c_2 }}
+            className={`mb-4 text-3xl font-normal text-[#b0ddfc] uppercase text-shadow-2xs lg:mb-8 lg:text-6xl 2xl:text-7xl ${isEn ? 'origin-left' : 'origin-right text-right'
+              }`}
+            dangerouslySetInnerHTML={{
+              __html: zone.c_2.replace('|', '<br/>'),
+            }}
           />
           <p
             className="mb-4 text-lg text-white lg:mb-8 lg:text-xl"
