@@ -103,8 +103,11 @@ function GlobalTabsNav({ items, lang, block }: { items: any[]; lang: string; blo
                             </div>
                             <div className="pointer-events-none absolute inset-0 z-10 flex items-start px-8 py-8">
                               <h3
-                                className={`text-2xl font-medium text-white ${lang === 'en' ? 'uppercase' : ''}`}
-                                dangerouslySetInnerHTML={{ __html: item.c_1 }}
+                                className={`text-2xl font-medium text-white ${lang === 'en' ? 'uppercase' : ''
+                                  }`}
+                                dangerouslySetInnerHTML={{
+                                  __html: item.c_1.replace('|', '<br/>'),
+                                }}
                               />
                             </div>
                           </div>
