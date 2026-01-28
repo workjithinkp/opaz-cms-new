@@ -28,7 +28,7 @@ export default function ExploreZoneFindTheKey({ section }: ExploreZoneFindTheKey
   const tabRef = useRef<HTMLDivElement | null>(null)
   const tabConRef = useRef<HTMLDivElement | null>(null)
   const removeBr = (html = '') =>
-  html.replace(/<br\s*\/?>|<\/br>/gi, ' ')
+    html.replace(/<br\s*\/?>|<\/br>/gi, ' ')
   useGSAP(() => {
     const mm = gsap.matchMedia()
 
@@ -49,7 +49,7 @@ export default function ExploreZoneFindTheKey({ section }: ExploreZoneFindTheKey
       gsap.set(titleSubRef.current, { opacity: 0, y: 80 })
       gsap.set(tabRef.current, { opacity: 0, y: 80 })
       gsap.set(tabConRef.current, { opacity: 0, y: 80 })
-      
+
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: containerRef.current,
@@ -102,15 +102,16 @@ export default function ExploreZoneFindTheKey({ section }: ExploreZoneFindTheKey
       id="renewable-energy"
       className="relative overflow-hidden bg-[#06213c] py-14 lg:min-h-screen lg:py-0">
       <div ref={imgRef} className="absolute inset-0 overflow-hidden">
-       
-          <Image
-           src={block?.i_1 ? (block.i_1.startsWith('http') ? block.i_1 : `${API_DOMAIN}${block.i_1}`) : '/explore-renewable-bg.jpg'}
-            alt="Background"
-            fill
-            priority
-            className="object-cover"
-          />
-      
+
+        <Image
+          src={block?.i_1 ? (block.i_1.startsWith('http') ? block.i_1 : `${API_DOMAIN}${block.i_1}`) : '/explore-renewable-bg.jpg'}
+          alt="Background"
+          fill
+          priority
+          unoptimized
+          className="object-cover"
+        />
+
       </div>
       <div className="absolute inset-0 bg-[#1C1C1E]/26"></div>
 
@@ -132,15 +133,15 @@ export default function ExploreZoneFindTheKey({ section }: ExploreZoneFindTheKey
                   {(list ?? []).map((item) => {
                     const tabValue = String(item.id)
                     return (
-                    <TabsContent
-                      key={item.id}
-                      value={tabValue}
-                      className="transition-all duration-500 ease-out data-[state=active]:translate-y-0 data-[state=active]:opacity-100 data-[state=inactive]:translate-y-4 data-[state=inactive]:opacity-0">
-                      <h2
-                        className={`pb-4 text-3xl font-normal text-[#b0ddfc] uppercase text-shadow-2xs lg:text-5xl xl:text-6xl 2xl:text-6xl ${isEn ? 'origin-left' : 'origin-right text-right'}`}
-                        dangerouslySetInnerHTML={{ __html: removeBr(item.c_1) }}
-                      />
-                    </TabsContent>
+                      <TabsContent
+                        key={item.id}
+                        value={tabValue}
+                        className="transition-all duration-500 ease-out data-[state=active]:translate-y-0 data-[state=active]:opacity-100 data-[state=inactive]:translate-y-4 data-[state=inactive]:opacity-0">
+                        <h2
+                          className={`pb-4 text-3xl font-normal text-[#b0ddfc] uppercase text-shadow-2xs lg:text-5xl xl:text-6xl 2xl:text-6xl ${isEn ? 'origin-left' : 'origin-right text-right'}`}
+                          dangerouslySetInnerHTML={{ __html: removeBr(item.c_1) }}
+                        />
+                      </TabsContent>
                     )
                   })}
                 </div>
@@ -150,15 +151,15 @@ export default function ExploreZoneFindTheKey({ section }: ExploreZoneFindTheKey
                   {(list ?? []).map((item) => {
                     const tabValue = String(item.id)
                     return (
-                    <TabsTrigger
-                      key={item.id}
-                      value={tabValue}
-                      className="!whitespace-wrap flex h-full w-full items-center justify-center bg-[#F1ECE3] px-4 py-4 text-[#6E7C87] uppercase transition duration-300 data-[state=active]:bg-[#B0DDFC] data-[state=active]:shadow-lg sm:data-[state=active]:shadow-none">
-                      <span
-                        className="text-center leading-tight"
-                        dangerouslySetInnerHTML={{ __html: item.c_1 ?? '' }}
-                      />
-                    </TabsTrigger>
+                      <TabsTrigger
+                        key={item.id}
+                        value={tabValue}
+                        className="!whitespace-wrap flex h-full w-full items-center justify-center bg-[#F1ECE3] px-4 py-4 text-[#6E7C87] uppercase transition duration-300 data-[state=active]:bg-[#B0DDFC] data-[state=active]:shadow-lg sm:data-[state=active]:shadow-none">
+                        <span
+                          className="text-center leading-tight"
+                          dangerouslySetInnerHTML={{ __html: item.c_1 ?? '' }}
+                        />
+                      </TabsTrigger>
                     )
                   })}
                 </TabsList>
@@ -171,49 +172,49 @@ export default function ExploreZoneFindTheKey({ section }: ExploreZoneFindTheKey
                 {(list ?? []).map((item) => {
                   const tabValue = String(item.id)
                   return (
-                  <TabsContent
-                    key={item.id}
-                    value={tabValue}
-                    className="transition-all duration-500 ease-out data-[state=active]:translate-y-0 data-[state=active]:opacity-100 data-[state=inactive]:translate-y-4 data-[state=inactive]:opacity-0">
-                    <div className="overflow-hidden rounded-lg">
-                      <h4
-                        className="mb-6 text-2xl font-medium text-[#434343]"
-                        dangerouslySetInnerHTML={{ __html: item.c_2 ?? '' }}
-                      />
+                    <TabsContent
+                      key={item.id}
+                      value={tabValue}
+                      className="transition-all duration-500 ease-out data-[state=active]:translate-y-0 data-[state=active]:opacity-100 data-[state=inactive]:translate-y-4 data-[state=inactive]:opacity-0">
+                      <div className="overflow-hidden rounded-lg">
+                        <h4
+                          className="mb-6 text-2xl font-medium text-[#434343]"
+                          dangerouslySetInnerHTML={{ __html: item.c_2 ?? '' }}
+                        />
 
-                      <div
-                        className={`mb-6 leading-relaxed text-[#434343] ${lang === 'ar' ? 'text-right' : 'text-left'}`}
-                        dangerouslySetInnerHTML={{ __html: item.c_3 ?? '' }}
-                      />
+                        <div
+                          className={`mb-6 leading-relaxed text-[#434343] ${lang === 'ar' ? 'text-right' : 'text-left'}`}
+                          dangerouslySetInnerHTML={{ __html: item.c_3 ?? '' }}
+                        />
 
-                      {(item.i_1 || item.i_2) && (
-                        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-                          {item.i_1 && (
-                            <div className="overflow-hidden rounded-lg">
-                              <Image
-                                src={item.i_1.startsWith('http') ? item.i_1 : `${API_DOMAIN}${item.i_1}`}
-                                width={420}
-                                height={365}
-                                className="h-full w-full object-cover"
-                                alt={item.c_1 ?? 'Image'}
-                              />
-                            </div>
-                          )}
-                          {item.i_2 && (
-                            <div className="overflow-hidden rounded-lg">
-                              <Image
-                                src={item.i_2.startsWith('http') ? item.i_2 : `${API_DOMAIN}${item.i_2}`}
-                                width={420}
-                                height={365}
-                                className="h-full w-full object-cover"
-                                alt={item.c_1 ?? 'Image'}
-                              />
-                            </div>
-                          )}
-                        </div>
-                      )}
-                    </div>
-                  </TabsContent>
+                        {(item.i_1 || item.i_2) && (
+                          <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+                            {item.i_1 && (
+                              <div className="overflow-hidden rounded-lg">
+                                <Image
+                                  src={item.i_1.startsWith('http') ? item.i_1 : `${API_DOMAIN}${item.i_1}`}
+                                  width={420}
+                                  height={365}
+                                  className="h-full w-full object-cover"
+                                  alt={item.c_1 ?? 'Image'}
+                                />
+                              </div>
+                            )}
+                            {item.i_2 && (
+                              <div className="overflow-hidden rounded-lg">
+                                <Image
+                                  src={item.i_2.startsWith('http') ? item.i_2 : `${API_DOMAIN}${item.i_2}`}
+                                  width={420}
+                                  height={365}
+                                  className="h-full w-full object-cover"
+                                  alt={item.c_1 ?? 'Image'}
+                                />
+                              </div>
+                            )}
+                          </div>
+                        )}
+                      </div>
+                    </TabsContent>
                   )
                 })}
               </div>

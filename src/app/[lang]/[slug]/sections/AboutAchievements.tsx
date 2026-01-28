@@ -90,6 +90,7 @@ export default function AboutAchievements({
           alt="Achievements Background"
           fill
           priority
+          unoptimized
           className="object-cover"
         />
       </div>
@@ -98,7 +99,7 @@ export default function AboutAchievements({
         <div>
           <h2
             ref={titleRef1}
-           className="mb-4 text-3xl leading-none font-normal text-[#b0ddfc] uppercase lg:mb-8 lg:text-6xl 2xl:text-[80px]">
+            className="mb-4 text-3xl leading-none font-normal text-[#b0ddfc] uppercase lg:mb-8 lg:text-6xl 2xl:text-[80px]">
             {block?.c_1}
           </h2>
 

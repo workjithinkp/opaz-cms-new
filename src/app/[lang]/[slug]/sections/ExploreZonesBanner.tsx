@@ -23,7 +23,7 @@ export default function ExploreZonesBanner({
 }: ExploreZonesBannerProps) {
   const { lang: contextLang } = useLang()
   const isEn = contextLang === 'en'
-  
+
   const containerRef = useRef(null)
   const imgRef = useRef(null)
   const textRef = useRef(null)
@@ -109,6 +109,7 @@ export default function ExploreZonesBanner({
           alt="Explore Zones"
           fill
           priority
+          unoptimized
           className="object-cover"
         />
       </div>
@@ -137,9 +138,8 @@ export default function ExploreZonesBanner({
               <div className="flex items-center justify-center rounded-xl border border-[#b6ddfa]/40 bg-[#2d86dd]/20 py-3 text-sm text-[#b6ddfa] uppercase transition-all duration-700 group-hover:border-[#b6ddfa]/70 group-hover:bg-[#0c213b] md:py-5 md:text-lg">
                 {block.c_3}
                 <MdKeyboardDoubleArrowRight
-                  className={`ms-2.5 size-7 text-3xl ${
-                    contextLang === 'ar' ? 'rotate-180' : 'rotate-0'
-                  }`}
+                  className={`ms-2.5 size-7 text-3xl ${contextLang === 'ar' ? 'rotate-180' : 'rotate-0'
+                    }`}
                 />
               </div>
             </Link>
@@ -150,9 +150,8 @@ export default function ExploreZonesBanner({
               <div className="flex items-center justify-center rounded-xl border border-[#b6ddfa]/40 bg-[#2d86dd]/20 py-3 text-sm text-[#b6ddfa] uppercase transition-all duration-700 group-hover:border-[#b6ddfa]/70 group-hover:bg-[#0c213b] md:py-5 md:text-lg">
                 {block.c_4}
                 <MdKeyboardDoubleArrowRight
-                  className={`ms-2.5 size-7 text-3xl ${
-                    contextLang === 'ar' ? 'rotate-180' : 'rotate-0'
-                  }`}
+                  className={`ms-2.5 size-7 text-3xl ${contextLang === 'ar' ? 'rotate-180' : 'rotate-0'
+                    }`}
                 />
               </div>
             </Link>

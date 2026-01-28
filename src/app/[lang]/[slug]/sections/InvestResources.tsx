@@ -133,6 +133,7 @@ export default function InvestResources({
           alt="Zoom"
           fill
           priority
+          unoptimized
           className="object-cover"
         />
       </div>
@@ -150,78 +151,77 @@ export default function InvestResources({
           className="mb-4 text-lg text-white lg:mb-8 lg:text-xl">
           {block.c_2}
         </div>
-      <div
-  ref={docsRef}
-  className="documents flex w-full flex-col items-center space-y-4"
->
-  {items.map((item, index) =>
-    buttonslug === 'media' ? (
-      <div
-        key={index}
-        className="w-full justify-start rounded-2xl border border-[#afddfc] bg-[#6fabe6]/40 p-7 uppercase lg:flex"
-      >
-        <div className="flex flex-1 space-x-3.5 pb-3 lg:pb-0">
-          <div className="size-8 lg:size-12">
-            <Image
-              src="/icon-pdf.png"
-              alt="PDF Icon"
-              width={69}
-              height={80}
-            />
-          </div>
-
-          <div className="flex-1 lg:space-y-2">
-            <h3 className="text-lg font-medium uppercase lg:line-clamp-1 lg:max-w-3/4 lg:text-xl">
-              {item.c_1}
-            </h3>
-            <div className="line-clamp-1 max-w-3/4 normal-case">
-              {item.c_2}
-            </div>
-          </div>
-        </div>
-
-        <Link
-          href={`${API_DOMAIN}${item.f_1 || ''}`}
-          target="_blank"
-          className="flex w-fit items-center rounded-sm border border-blue-300 bg-blue-300/30 px-4 py-2 text-[#b0ddfc] uppercase transition hover:bg-[#0c213b] lg:px-6 lg:py-3"
+        <div
+          ref={docsRef}
+          className="documents flex w-full flex-col items-center space-y-4"
         >
-          {buttonMode === 'explore' ? t.exploreMore : t.download}
-          <IoIosArrowForward
-            className={`transition-transform ${
-              isEn ? 'rotate-0' : 'rotate-180'
-            }`}
-          />
-        </Link>
-      </div>
-    ) : (
-      <div
-              key={index}
-              className="w-full justify-start rounded-2xl border border-[#afddfc] bg-[#6fabe6]/40 px-6 py-6 uppercase lg:flex">
-              <div className="flex flex-1 space-x-3.5 pb-3 lg:pb-0">
-                <div className="size-8 lg:size-15">
-                  <Image src={'/icon-pdf.png'} alt="PDF Icon" width={69} height={80} />
-                </div>
+          {items.map((item, index) =>
+            buttonslug === 'media' ? (
+              <div
+                key={index}
+                className="w-full justify-start rounded-2xl border border-[#afddfc] bg-[#6fabe6]/40 p-7 uppercase lg:flex"
+              >
+                <div className="flex flex-1 space-x-3.5 pb-3 lg:pb-0">
+                  <div className="size-8 lg:size-12">
+                    <Image
+                      src="/icon-pdf.png"
+                      alt="PDF Icon"
+                      width={69}
+                      height={80}
+                    />
+                  </div>
 
-                <div className="flex-1 lg:space-y-2">
-                  <h3 className="text-xl font-medium lg:line-clamp-1 lg:max-w-3/4 lg:text-2xl">
-                    {item.c_1}
-                  </h3>
-                  <div className="normal-case lg:line-clamp-1 lg:max-w-3/4">
-                    {item.c_2}
+                  <div className="flex-1 lg:space-y-2">
+                    <h3 className="text-lg font-medium uppercase lg:line-clamp-1 lg:max-w-3/4 lg:text-xl">
+                      {item.c_1}
+                    </h3>
+                    <div className="line-clamp-1 max-w-3/4 normal-case">
+                      {item.c_2}
+                    </div>
                   </div>
                 </div>
-              </div>
-              <Link
-                href={`${API_DOMAIN}${item.f_1 || ''}`}
-                target="_blank"
-                className="flex w-fit items-center gap-2 border px-4 py-1.5 text-sm lg:px-6 lg:py-3 lg:text-base hover:bg-white/10 transition-colors group">
-                 {buttonMode === 'explore' ? t.exploreMore : t.download}
-              </Link>
-            </div>
 
-    )
-  )}
-</div>
+                <Link
+                  href={`${API_DOMAIN}${item.f_1 || ''}`}
+                  target="_blank"
+                  className="flex w-fit items-center rounded-sm border border-blue-300 bg-blue-300/30 px-4 py-2 text-[#b0ddfc] uppercase transition hover:bg-[#0c213b] lg:px-6 lg:py-3"
+                >
+                  {buttonMode === 'explore' ? t.exploreMore : t.download}
+                  <IoIosArrowForward
+                    className={`transition-transform ${isEn ? 'rotate-0' : 'rotate-180'
+                      }`}
+                  />
+                </Link>
+              </div>
+            ) : (
+              <div
+                key={index}
+                className="w-full justify-start rounded-2xl border border-[#afddfc] bg-[#6fabe6]/40 px-6 py-6 uppercase lg:flex">
+                <div className="flex flex-1 space-x-3.5 pb-3 lg:pb-0">
+                  <div className="size-8 lg:size-15">
+                    <Image src={'/icon-pdf.png'} alt="PDF Icon" width={69} height={80} />
+                  </div>
+
+                  <div className="flex-1 lg:space-y-2">
+                    <h3 className="text-xl font-medium lg:line-clamp-1 lg:max-w-3/4 lg:text-2xl">
+                      {item.c_1}
+                    </h3>
+                    <div className="normal-case lg:line-clamp-1 lg:max-w-3/4">
+                      {item.c_2}
+                    </div>
+                  </div>
+                </div>
+                <Link
+                  href={`${API_DOMAIN}${item.f_1 || ''}`}
+                  target="_blank"
+                  className="flex w-fit items-center gap-2 border px-4 py-1.5 text-sm lg:px-6 lg:py-3 lg:text-base hover:bg-white/10 transition-colors group">
+                  {buttonMode === 'explore' ? t.exploreMore : t.download}
+                </Link>
+              </div>
+
+            )
+          )}
+        </div>
 
       </div>
     </section>

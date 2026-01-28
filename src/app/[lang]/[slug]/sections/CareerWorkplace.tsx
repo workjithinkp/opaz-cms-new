@@ -103,6 +103,7 @@ export default function CareerWorkplace({ section, lang }: CareerWorkplaceProps)
           alt="Zoom"
           fill
           priority
+          unoptimized
           className="object-cover"
         />
       </div>
@@ -145,7 +146,7 @@ export default function CareerWorkplace({ section, lang }: CareerWorkplaceProps)
                       <h3 className="mb-5 text-xl font-medium text-white uppercase lg:mb-12 lg:text-3xl">
                         {item.c_1 || ''}
                       </h3>
-                      <div 
+                      <div
                         className="text-white"
                         dangerouslySetInnerHTML={{ __html: item.c_2 || '' }}
                       />
@@ -174,7 +175,7 @@ export default function CareerWorkplace({ section, lang }: CareerWorkplaceProps)
                   <h3 className="mb-2 text-xl font-medium text-white uppercase">
                     {item.c_1 || ''}
                   </h3>
-                  <div 
+                  <div
                     className="text-white"
                     dangerouslySetInnerHTML={{ __html: item.c_2 || '' }}
                   />

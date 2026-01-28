@@ -158,6 +158,7 @@ export default function AboutWhoAreWe({ section, lang }: AboutWhoAreWeProps) {
           fill
           priority
           className="object-cover"
+          unoptimized
         />
       </div>
 

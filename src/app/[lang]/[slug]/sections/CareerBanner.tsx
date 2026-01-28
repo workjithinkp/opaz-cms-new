@@ -78,6 +78,7 @@ export default function CareerBanner({ section, lang }: CareerBannerProps) {
           alt="Zoom"
           fill
           priority
+          unoptimized
           className="object-cover"
         />
       </div>

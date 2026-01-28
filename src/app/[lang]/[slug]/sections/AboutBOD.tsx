@@ -181,6 +181,7 @@ export default function AboutBOD({ section, lang }: AboutBODProps) {
           alt="Board of Directors Background"
           fill
           priority
+          unoptimized
           className="object-cover"
         />
       </div>
@@ -203,21 +204,19 @@ export default function AboutBOD({ section, lang }: AboutBODProps) {
           className="mb-10 flex flex-col gap-3 lg:flex-row">
           <Button
             onClick={() => handleTabChange('bod')}
-            className={`min-w-60 rounded-sm border border-blue-300 px-6 py-6 transition ${
-              activeTab === 'bod'
-                ? 'bg-[#0c213b] text-[#b0ddfc]'
-                : 'bg-blue-300/30 text-[#b0ddfc] hover:bg-blue-300/40'
-            }`}>
+            className={`min-w-60 rounded-sm border border-blue-300 px-6 py-6 transition ${activeTab === 'bod'
+              ? 'bg-[#0c213b] text-[#b0ddfc]'
+              : 'bg-blue-300/30 text-[#b0ddfc] hover:bg-blue-300/40'
+              }`}>
             {bodMembers[0]?.t_1 || block?.c_3}
           </Button>
 
           <Button
             onClick={() => handleTabChange('leadership')}
-            className={`min-w-60 rounded-sm border border-blue-300 px-6 py-6 transition ${
-              activeTab === 'leadership'
-                ? 'bg-[#0c213b] text-[#b0ddfc]'
-                : 'bg-blue-300/30 text-[#b0ddfc] hover:bg-blue-300/40'
-            }`}>
+            className={`min-w-60 rounded-sm border border-blue-300 px-6 py-6 transition ${activeTab === 'leadership'
+              ? 'bg-[#0c213b] text-[#b0ddfc]'
+              : 'bg-blue-300/30 text-[#b0ddfc] hover:bg-blue-300/40'
+              }`}>
             {leadershipMembers[0]?.t_1 || block?.c_4}
           </Button>
         </div>
@@ -237,6 +236,7 @@ export default function AboutBOD({ section, lang }: AboutBODProps) {
                     width={350}
                     height={350}
                     priority
+                    unoptimized
                   />
                 </div>
 
@@ -274,6 +274,7 @@ export default function AboutBOD({ section, lang }: AboutBODProps) {
                     width={350}
                     height={350}
                     priority
+                    unoptimized
                   />
                 </div>
 

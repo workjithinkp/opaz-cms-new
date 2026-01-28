@@ -69,7 +69,7 @@ export default function InvestInOman({
       gsap.set(title1Ref.current, { opacity: 0, scale: 3 })
       gsap.set(descriptionRef.current, { opacity: 0, y: 40 })
       gsap.set(title2Ref.current, { opacity: 0, y: 60 })
-      
+
       // Only set slider refs if they exist
       if (sliderRef.current) {
         gsap.set(sliderRef.current, { opacity: 0, y: 60 })
@@ -168,10 +168,10 @@ export default function InvestInOman({
         descriptionRef.current,
         title2Ref.current,
       ]
-      
+
       if (sliderRef.current) elements.push(sliderRef.current)
       if (sliderRef2.current) elements.push(sliderRef2.current)
-      
+
       gsap.set(elements, { clearProps: 'all' })
     })
 
@@ -195,6 +195,7 @@ export default function InvestInOman({
           alt="Invest in Oman"
           fill
           priority
+          unoptimized
           className="object-cover"
         />
       </div>

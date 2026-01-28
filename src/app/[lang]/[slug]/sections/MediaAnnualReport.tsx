@@ -104,6 +104,7 @@ export default function MediaAnnualReport({ section, lang }: MediaAnnualReportPr
           alt="Zoom"
           fill
           priority
+          unoptimized
           className="object-cover"
         />
       </div>
@@ -122,8 +123,8 @@ export default function MediaAnnualReport({ section, lang }: MediaAnnualReportPr
             const pdfUrl = report.f_1 && report.f_1.startsWith('http')
               ? report.f_1
               : report.f_1
-              ? `${API_DOMAIN}${report.f_1}`
-              : null
+                ? `${API_DOMAIN}${report.f_1}`
+                : null
 
             const reportDate = report.date_1 || ''
 

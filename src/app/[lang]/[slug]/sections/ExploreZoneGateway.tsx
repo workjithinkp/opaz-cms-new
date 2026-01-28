@@ -46,6 +46,7 @@ function GlobalTabsNav({ items, lang, block }: { items: any[]; lang: string; blo
           alt="Background"
           fill
           priority
+          unoptimized
           className="object-cover"
         />
       </div>

@@ -107,6 +107,7 @@ export default function MediaInvestorResources({ section, lang }: MediaInvestorR
           alt="Resources"
           fill
           priority
+          unoptimized
           className="object-cover"
         />
       </div>
@@ -130,8 +131,8 @@ export default function MediaInvestorResources({ section, lang }: MediaInvestorR
             const pdfUrl = doc.f_1 && doc.f_1.startsWith('http')
               ? doc.f_1
               : doc.f_1
-              ? `${API_DOMAIN}${doc.f_1}`
-              : null
+                ? `${API_DOMAIN}${doc.f_1}`
+                : null
 
             if (!pdfUrl) return null
 

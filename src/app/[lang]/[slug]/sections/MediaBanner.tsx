@@ -97,6 +97,7 @@ export default function MediaBanner({ section, lang }: MediaBannerProps) {
           alt={title}
           fill
           priority
+          unoptimized
           className="object-cover"
         />
       </div>

@@ -123,6 +123,7 @@ export default function CareerContact({ section, lang }: CareerContactProps) {
           alt="Zoom"
           fill
           priority
+          unoptimized
           className="object-cover"
         />
       </div>
@@ -147,9 +148,8 @@ export default function CareerContact({ section, lang }: CareerContactProps) {
               Contact Us
               <span>
                 <IoIosArrowForward
-                  className={`ms-2 transition-transform ${
-                    lang === 'ar' ? 'scale-x-[-1]' : ''
-                  }`}
+                  className={`ms-2 transition-transform ${lang === 'ar' ? 'scale-x-[-1]' : ''
+                    }`}
                 />
               </span>
             </Link>

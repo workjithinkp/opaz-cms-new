@@ -96,6 +96,7 @@ export default function Contact({ section, lang }: ContactProps) {
           alt="Zoom"
           fill
           priority
+          unoptimized
           className="object-cover"
         />
       </div>
@@ -128,9 +129,8 @@ export default function Contact({ section, lang }: ContactProps) {
                       {localCallLabel}
                     </div>
                     <div
-                      className={`text-base font-medium text-[#d8e8f4] lg:text-2xl ${
-                        lang === 'ar' ? 'text-right' : 'text-left'
-                      }`}>
+                      className={`text-base font-medium text-[#d8e8f4] lg:text-2xl ${lang === 'ar' ? 'text-right' : 'text-left'
+                        }`}>
                       <span dir="ltr">{block?.t_1 || '1919'}</span>
                     </div>
                   </div>
@@ -146,9 +146,8 @@ export default function Contact({ section, lang }: ContactProps) {
                       {internationalCallLabel}
                     </div>
                     <div
-                      className={`text-base font-medium text-[#d8e8f4] lg:text-2xl ${
-                        lang === 'ar' ? 'text-right' : 'text-left'
-                      }`}>
+                      className={`text-base font-medium text-[#d8e8f4] lg:text-2xl ${lang === 'ar' ? 'text-right' : 'text-left'
+                        }`}>
                       <span dir="ltr">{block?.t_2 || '+968 800111 10'}</span>
                     </div>
                   </div>
@@ -164,9 +163,8 @@ export default function Contact({ section, lang }: ContactProps) {
                       {emailLabel}
                     </div>
                     <div
-                      className={`text-base font-medium text-[#d8e8f4] lg:text-2xl ${
-                        lang === 'ar' ? 'text-right' : 'text-left'
-                      }`}>
+                      className={`text-base font-medium text-[#d8e8f4] lg:text-2xl ${lang === 'ar' ? 'text-right' : 'text-left'
+                        }`}>
                       <span dir="ltr">{block?.t_3 || 'call.center@opaz.gov.om'}</span>
                     </div>
                   </div>
@@ -182,7 +180,7 @@ export default function Contact({ section, lang }: ContactProps) {
                   <div className="text-lg font-medium text-[#d8e8f4] lg:text-xl">
                     {addressLabel}
                   </div>
-                  <div 
+                  <div
                     className="text-base font-medium text-[#d8e8f4] lg:text-2xl"
                     dangerouslySetInnerHTML={{ __html: block?.c_3 || 'P.O. Box 77, Postal Code 100, Muscat, Sultanate of Oman' }}
                   />

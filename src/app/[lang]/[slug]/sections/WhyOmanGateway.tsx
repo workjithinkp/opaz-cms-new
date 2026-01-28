@@ -114,6 +114,7 @@ export default function WhyOmanGateway({
           alt="Zoom"
           fill
           priority
+          unoptimized
           className="object-cover"
         />
       </div>
@@ -141,9 +142,8 @@ export default function WhyOmanGateway({
                 {block?.c_3}
 
                 <MdKeyboardDoubleArrowRight
-                  className={`ms-2.5 size-7 text-3xl ${
-                    lang === 'ar' ? 'rotate-180' : 'rotate-0'
-                  }`}
+                  className={`ms-2.5 size-7 text-3xl ${lang === 'ar' ? 'rotate-180' : 'rotate-0'
+                    }`}
                 />
               </div>
             </Link>
@@ -152,9 +152,8 @@ export default function WhyOmanGateway({
                 {block?.c_4}
 
                 <MdKeyboardDoubleArrowRight
-                  className={`ms-2.5 size-7 text-3xl ${
-                    lang === 'ar' ? 'rotate-180' : 'rotate-0'
-                  }`}
+                  className={`ms-2.5 size-7 text-3xl ${lang === 'ar' ? 'rotate-180' : 'rotate-0'
+                    }`}
                 />
               </div>
             </Link>

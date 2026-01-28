@@ -117,6 +117,7 @@ export default function InvestBanner({ section, lang }: InvestBannerProps) {
           alt="Invest Oman Banner"
           fill
           priority
+          unoptimized
           className="object-cover"
         />
       </div>
